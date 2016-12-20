@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;vdma/src/fg_sementation&apos; to &apos;fg_sementation.h&apos;" description="Rename resource &apos;fg_sementation&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/fg_sementation" name="fg_sementation.h" stamp="1478448263060" updateReferences="true"/>
-</session>

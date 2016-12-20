@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="impl_1" LaunchDir="/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design"/>
-</Runs>
-
