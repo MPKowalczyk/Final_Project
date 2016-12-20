@@ -1,0 +1,126 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{VT}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://en.wikipedia.org/wiki/Video_tracking}}
+    \field{title}{Video Tracking}
+    \field{year}{Dostęp: 12.10.2016}
+  \endentry
+
+  \entry{CMS}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ANM}{%
+         family={Artner},
+         familyi={A\bibinitperiod},
+         given={Nicole\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ANM1}
+    \strng{fullhash}{ANM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A Comparison of Mean Shift Tracking Methods}
+    \field{year}{2008}
+  \endentry
+
+  \entry{BCV}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BGR}{%
+         family={Bradski},
+         familyi={B\bibinitperiod},
+         given={Gary\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGR1}
+    \strng{fullhash}{BGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Computer Vision Face Tracking For Use in a Perceptual User
+  Interface}
+    \field{journaltitle}{Intel Technology Journal}
+    \field{year}{1998}
+  \endentry
+
+  \entry{TSK}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Svoboda},
+         familyi={S\bibinitperiod},
+         given={Tomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{http://cmp.felk.cvut.cz/cmp/courses/Y33ROV/Y33ROV_ZS20082009/Lectures/Motion/klt.pdf}}
+    \field{title}{Kanade–Lucas–Tomasi Tracking}
+    \field{year}{Dostęp: 19.11.2016}
+  \endentry
+
+  \entry{KK}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KK}{%
+         family={Kitani},
+         familyi={K\bibinitperiod},
+         given={Kris},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KK1}
+    \strng{fullhash}{KK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{http://www.cs.cmu.edu/~16385/lectures/Lecture23.pdf}}
+    \field{title}{KLT Tracker}
+    \field{year}{Dostęp: 19.11.2016}
+  \endentry
+
+  \entry{Xi}{manual}{}
+    \list{organization}{1}{%
+      {Xilinx}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{ZYBO FPGA Board Reference Manual}
+    \field{year}{2016}
+  \endentry
+
+  \entry{MM}{manual}{}
+    \list{organization}{1}{%
+      {Pololu}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{Pololu Maestro Servo Controller User's Guide}
+    \field{year}{2014}
+  \endentry
+\endsortlist
+\endinput

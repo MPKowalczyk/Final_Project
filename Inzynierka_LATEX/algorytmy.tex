@@ -1,0 +1,132 @@
+\chapter{Algorytmy}
+\label{cha:algorytmy}
+
+W rozdziale tym omówione zostaną algorytmy śledzenia. Rozważymy również możliwość oraz skuteczność ich implementacji sprzętowej i sprzętowo-programowej.
+
+\section{Śledzenie przez detekcję}
+\label{sec:sledzenieprzezdetekcje}
+
+Jest to najłatwiejszy możliwy algorytm śledzenia. Polega on na detekcji obiektu i określeniu jego położenia (np. poprzez wyznaczenie środka ciężkości). Algorytm ten jest efektywny tylko, gdy w kadrze znajduje się maksymalnie jeden wyznaczony obiekt. Ograniczenie to możemy obejść przez zastosowanie dodatkowo algorytmu indeksacji. Wtedy musimy zdecydować który z wyznaczonych obiektów jest tym właściwym. Możemy np. śledzić element znajdujący się najbliżej (mający największą powierzchnię w kadrze). Efektywność implementacji programowo-sprzętowej zależy w większości od wykorzystanego algorytmu detekcji, i/lub segmentacji. Algorytm detekcji na podstawie koloru będzie łatwy i szybki do zaimplementowania,a algorytm bazujący na współczynnikach kształtu  wymagać będzie dużo więcej pracy i zasobów.
+
+\section{Mean-shift}
+\label{sec:meanshift}
+
+Algorytm ten bazuje na statystycznej metodzie poszukiwania lokalnego maksimum rozkładu prawdopodobieństwa. Polega on na wyznaczeniu maksymalnej wartości prawdopodobieństwa w aktualnym oknie wokół punktu startowego. W celu zastosowania tego algorytmu do śledzenia obiektu należy przedstawić obraz jako rozkład prawdopodobieństwa. W tym celu każdemu pikselowi przypisuje się wartość prawdopodobieństwa. Można to zrobić np. na podstawie koloru, przypisując kolorom wartość prawdopodobieństwa, lub histogramu, porównując histogram otoczenia piksela z histogramem obiektu \cite{CMS}. Jeśli prawdopodobieństwo obliczone zostaje tylko na podstawie koloru, dobre wyniki możemy uzyskać, gdy:
+\begin{itemize}
+\item Obiekt ma jednolitą barwę.
+\item Występują bardzo małe zmiany oświetlenia.
+\item W kadrze nie ma obiektów podobnych do śledzonego.
+\item Kolor tła znacznie różni się od koloru obiektu.
+\item Obiekt nie może zostać całkowicie zasłonięty.
+\end{itemize}
+\paragraph*{}
+Algorytm ten ma następujący przebieg:
+\begin{enumerate}
+\item Wybierz rozmiar okna.
+\item Wybierz początkowe położenie(środek) okna.
+\item Wyznacz położenie maksimum wartości prawdopodobieństwa w oknie.
+\item Przesuń okno, aby wyznaczone maksimum było jego środkiem.
+\item Powtarzaj kroki 3 i 4, aż algorytm będzie zbieżny.
+\end{enumerate}
+\paragraph*{}
+Punktem startowym dla każdego kolejnego obrazu z kamery jest pozycja obiektu w poprzednim obrazie. Poszukiwanie maksymalnej wartości wartości prawdopodobieństwa odbywa się w następujący sposób:
+\begin{itemize}
+\item Obliczamy moment zerowy.
+\begin{equation}
+M_{00}=\sum\limits_{x}\sum\limits_{y}l(x,y)
+\end{equation}
+\item Obliczamy moment pierwszy dla osi poziomej.
+\begin{equation}
+M_{10}=\sum\limits_{x}\sum\limits_{y}x \cdot l(x,y)
+\end{equation}
+\item Obliczamy moment pierwszy dla osi pionowej.
+\begin{equation}
+M_{01}=\sum\limits_{x}\sum\limits_{y}y \cdot l(x,y)
+\end{equation}
+\item Obliczamy środek rozkładu prawdopodobieństwa w danym oknie.
+\begin{equation}
+x_c=\frac{M_{10}}{M_{00}}
+\end{equation}
+\begin{equation}
+y_c=\frac{M_{01}}{M_{00}}
+\end{equation}
+\end{itemize}
+Gdzie \(l(x,y)\) jest wartością prawdopodobieństwa dla piksela \((x,y)\)\cite{BCV}.
+
+%\paragraph*{}
+%Można wykorzystać przykładowe jądra:
+%\begin{itemize}
+%\item Płaskie
+%\[K(x)=\begin{cases}1 & \text{dla } x \leqslant R \\ 0 & \text{dla } x>R \end{cases}\]
+%\item Gaussowskie
+%\[K(x)=\frac{1}{2\pi}\mathrm{e}^{-\frac{1}{2} \cdot |x|^2}\]
+%\end{itemize}
+%\paragraph*{}
+%Dla zestawu \(n\) punktów w 2-wymiarowej przestrzeni estymacja gęstości jądra z jądrem K(x) i promieniem %#\(h\) wynosi:
+%#\[f_K(x)=\frac{1}{nh^2} \cdot \sum\limits_{i=1}^{n}K(\frac{x-x_i}{h})\]
+
+\section{Filtr cząsteczkowy}
+\label{sec:filtrczasteczkowy}
+
+\section{KLT}
+\label{sec:klt}
+Algorytm opisany przez Kanade'a, Lucas'a i Tomasi'a może posłużyć do śledzenie obiektu na obrazie w skali szarości. Polega on na poszukiwaniu najlepszego dopasowania obrazu referencyjnego \(T(x)\) do aktualnej ramki otrzymanej z kamery \(I(x)\) \cite{TSK}. Obrazy te są przesuwane względem siebie o wektor \(p\):
+\begin{equation}
+W(x,p)=
+	\begin{bmatrix}
+	x_1+p_1 \\
+	x_2+p_2
+	\end{bmatrix}
+\end{equation}
+Poszukiwane jest więc minimum następującej funkcji:
+\begin{equation}
+f(x,p)=\sum\limits_{x}((I(W(x,p))-T(x))^2
+\end{equation}
+Zakłada się, że początkowa wartość przesunięcia \(p\) jest znana, a poszukiwana jest najlepsza modyfikacja tego przesunięcia \(\Delta p\).
+\begin{equation}
+f(x,\Delta p)=\sum\limits_{x}((I(W(x,p+\Delta p))-T(x))^2
+\end{equation}
+Po znalezieniu optymalnego przesunięcia \(\Delta p\) aktualizowana jest wartość przesunięcia początkowego:
+\begin{equation}
+p \leftarrow p+\Delta p
+\end{equation}
+\paragraph*{}
+Funkcja \(I(x,p+\Delta p)\) linearyzowana jest w otoczeniu punktu \((x,p)\) ze względu na \(\Delta p\) poprzez rozwinięcie w szereg Taylora pierwszego rzędu.
+\begin{equation}
+f(x,\Delta p)=\sum\limits_{x}(I(W(x,p))+\nabla I \cdot \frac{\partial W}{\partial p} \cdot \Delta p-T(x))^2
+\end{equation}
+\(\nabla I=[\frac{\partial I}{\partial x_1}, \frac{\partial I}{\partial x_2}]\) jest transponowanym gradientem obrazu wejściowego w punkcie \(W(x,p)\).\\*
+\(\frac{\partial W}{\partial p}\) jest Jakobianem przesunięcia obrazów.
+\paragraph*{}
+Obliczamy pochodną funkcji dopasowania \(f(x,\Delta p)\) po \(\Delta p\) i przyrównujemy ją do zera.
+\begin{equation}
+\frac{\partial f(x,\Delta p)}{\partial \Delta p}=2 \cdot \sum\limits_{x} (\nabla I \cdot \frac{\partial W}{\partial p})^T \cdot ((I(W(x,p))+\nabla I \cdot \frac{\partial W}{\partial p} \cdot \Delta p-T(x))=0
+\end{equation}
+\paragraph*{}
+Przekształcając powyższy wzór otrzymuje się:
+\begin{equation}
+\Delta p=H^{-1} \cdot \sum\limits_{x}(\nabla I \cdot \frac{\partial W}{\partial p})^T \cdot (T(x)-I(W(x,p)))
+\end{equation}
+\(H\) jest Hesjanem:
+\begin{equation}
+H=\sum\limits_{x}(\nabla I \cdot \frac{\partial W}{\partial p})^T \cdot (\nabla I \cdot \frac{\partial W}{\partial p})
+\end{equation}
+\paragraph*{}
+Aby algorytm dobrze działał musimy odpowiednio wybrać obraz referencyjny. Zauważmy, że we wzorze na \(\Delta p\) jest odwrotność Hesjanu. Odwracanie macierzy może powodować duże błędy numeryczne, gdy macierz ta jest źle uwarunkowana. Oznacza to, że Hesjan musi posiadać odpowiednio duże wartości własne.
+\begin{equation}
+\lambda(H)>\lambda_{thr}
+\end{equation}
+\paragraph*{}
+W praktyce powyższy warunek oznacza, że obraz referencyjny nie może być jednolity. W najlepszym wypadku zawierał będzie on krawędzie śledzonego obiektu.
+\paragraph*{}
+Algorytm ma następujący przebieg \cite{KK}:
+\begin{enumerate}
+\item Znajdź obszary spełniające warunek na wartości własne hesjanu.
+\item Wyznacz obraz przesunięty o \(p\).
+\item Wyznacz gradient \(\nabla I\).
+\item Oblicz Jakobian \(\frac{\partial W}{\partial p}\) oraz iloczyn \(\nabla I \cdot \frac{\partial W}{\partial p}\).
+\item Oblicz Hesjan \(H=\sum\limits_x (\nabla I \cdot \frac{\partial W}{\partial p})^T \cdot (\nabla I \cdot \frac{\partial W}{\partial p})\).
+\item Wyznacz przesunięcie \(\Delta p=H^{-1} \cdot \sum\limits_x (\nabla I \cdot \frac{\partial W}{\partial p})^T \cdot (T(x)-I(W(x,p)))\).
+\item Zaktualizuj parametr \(p \leftarrow p+\Delta p\).
+\item Powtarzaj kroki od 2 do 7 do czasu, gdy algorytm będzie zbiegał do punktu.
+\end{enumerate}
