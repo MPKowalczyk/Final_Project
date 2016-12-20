@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bfm_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bfm_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9571430100000fs"></ZoomStartTime>
+      <ZoomEndTime time="9623370100001fs"></ZoomEndTime>
+      <Cursor1Time time="9591730100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="224"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="205" />
+   <wave_markers>
+      <marker time="22886130000000" label="" />
+      <marker time="9632301500000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/bfm_tb/file" type="array">
+      <obj_property name="ElementShortName">file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/file_index" type="array">
+      <obj_property name="ElementShortName">file_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/rgb_val" type="array">
+      <obj_property name="ElementShortName">rgb_val[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_val[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/RGB_de" type="logic">
+      <obj_property name="ElementShortName">RGB_de</obj_property>
+      <obj_property name="ObjectShortName">RGB_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/RGB_hsync" type="logic">
+      <obj_property name="ElementShortName">RGB_hsync</obj_property>
+      <obj_property name="ObjectShortName">RGB_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/RGB_vsync" type="logic">
+      <obj_property name="ElementShortName">RGB_vsync</obj_property>
+      <obj_property name="ObjectShortName">RGB_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus11573" type="vbus">
+      <obj_property name="label">R</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus11532" type="vbus">
+      <obj_property name="label">G</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus11531" type="vbus">
+      <obj_property name="label">B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/RGB_in[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/de" type="logic">
+      <obj_property name="ElementShortName">de</obj_property>
+      <obj_property name="ObjectShortName">de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/R" type="array">
+      <obj_property name="ElementShortName">R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/G" type="array">
+      <obj_property name="ElementShortName">G[7:0]</obj_property>
+      <obj_property name="ObjectShortName">G[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/de_out" type="logic">
+      <obj_property name="ElementShortName">de_out</obj_property>
+      <obj_property name="ObjectShortName">de_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/H" type="array">
+      <obj_property name="ElementShortName">H[8:0]</obj_property>
+      <obj_property name="ObjectShortName">H[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/vsync_out" type="logic">
+      <obj_property name="ElementShortName">vsync_out</obj_property>
+      <obj_property name="ObjectShortName">vsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/hsync_out" type="logic">
+      <obj_property name="ElementShortName">hsync_out</obj_property>
+      <obj_property name="ObjectShortName">hsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/H" type="array">
+      <obj_property name="ElementShortName">H[8:0]</obj_property>
+      <obj_property name="ObjectShortName">H[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/S" type="array">
+      <obj_property name="ElementShortName">S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/V" type="array">
+      <obj_property name="ElementShortName">V[7:0]</obj_property>
+      <obj_property name="ObjectShortName">V[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Div_H_valid" type="logic">
+      <obj_property name="ElementShortName">Div_H_valid</obj_property>
+      <obj_property name="ObjectShortName">Div_H_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Div_S_valid" type="logic">
+      <obj_property name="ElementShortName">Div_S_valid</obj_property>
+      <obj_property name="ObjectShortName">Div_S_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Substr_H" type="array">
+      <obj_property name="ElementShortName">Substr_H[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Substr_H[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/substrS" type="array">
+      <obj_property name="ElementShortName">substrS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">substrS[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/substrS_d" type="array">
+      <obj_property name="ElementShortName">substrS_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">substrS_d[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Div_H_data" type="array">
+      <obj_property name="ElementShortName">Div_H_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Div_H_data[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Substr_H_d" type="array">
+      <obj_property name="ElementShortName">Substr_H_d[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Substr_H_d[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Multipl_H" type="array">
+      <obj_property name="ElementShortName">Multipl_H[28:0]</obj_property>
+      <obj_property name="ObjectShortName">Multipl_H[28:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Multipl_H_added" type="array">
+      <obj_property name="ElementShortName">Multipl_H_added[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Multipl_H_added[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Multipl_H_final" type="array">
+      <obj_property name="ElementShortName">Multipl_H_final[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Multipl_H_final[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/tmpS" type="array">
+      <obj_property name="ElementShortName">tmpS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tmpS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/tmpV" type="array">
+      <obj_property name="ElementShortName">tmpV[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tmpV[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/tmpV_d" type="array">
+      <obj_property name="ElementShortName">tmpV_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tmpV_d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Comp_H" type="array">
+      <obj_property name="ElementShortName">Comp_H[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Comp_H[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/rgb2hsv_i/Comp_H_d" type="array">
+      <obj_property name="ElementShortName">Comp_H_d[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Comp_H_d[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/pix_gen_clk" type="logic">
+      <obj_property name="ElementShortName">pix_gen_clk</obj_property>
+      <obj_property name="ObjectShortName">pix_gen_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/pixel_counter" type="array">
+      <obj_property name="ElementShortName">pixel_counter[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_counter[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/line_counter" type="array">
+      <obj_property name="ElementShortName">line_counter[10:0]</obj_property>
+      <obj_property name="ObjectShortName">line_counter[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/H" type="array">
+      <obj_property name="ElementShortName">H[8:0]</obj_property>
+      <obj_property name="ObjectShortName">H[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">IMAGE RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/H_d" type="array">
+      <obj_property name="ElementShortName">H_d[8:0]</obj_property>
+      <obj_property name="ObjectShortName">H_d[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/image_data_read" type="array">
+      <obj_property name="ElementShortName">image_data_read[8:0]</obj_property>
+      <obj_property name="ObjectShortName">image_data_read[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/image_address_to_write" type="array">
+      <obj_property name="ElementShortName">image_address_to_write[15:0]</obj_property>
+      <obj_property name="ObjectShortName">image_address_to_write[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/image_address_to_read" type="array">
+      <obj_property name="ElementShortName">image_address_to_read[15:0]</obj_property>
+      <obj_property name="ObjectShortName">image_address_to_read[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/Hcount" type="array">
+      <obj_property name="ElementShortName">Hcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Hcount[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/Wcount" type="array">
+      <obj_property name="ElementShortName">Wcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Wcount[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">KERNEL/GRADIENT RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_ram_write_enable" type="logic">
+      <obj_property name="ElementShortName">kernel_ram_write_enable</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_ram_enable" type="logic">
+      <obj_property name="ElementShortName">kernel_ram_enable</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/dim_size" type="array">
+      <obj_property name="ElementShortName">dim_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dim_size[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/MAX" type="array">
+      <obj_property name="ElementShortName">MAX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/q_H_MAX" type="array">
+      <obj_property name="ElementShortName">q_H_MAX[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q_H_MAX[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/del_zcount" type="array">
+      <obj_property name="ElementShortName">del_zcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">del_zcount[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/m_zcount_div" type="array">
+      <obj_property name="ElementShortName">m_zcount_div[23:0]</obj_property>
+      <obj_property name="ObjectShortName">m_zcount_div[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_half_H" type="array">
+      <obj_property name="ElementShortName">ext_half_H[14:0]</obj_property>
+      <obj_property name="ObjectShortName">ext_half_H[14:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val" type="array">
+      <obj_property name="ElementShortName">divisor_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor_val[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus5279" type="vbus">
+      <obj_property name="label">New Virtual Bus 172</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/divisor_val[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus9279" type="vbus">
+      <obj_property name="label">ext_del_dividend_val[15:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/ext_del_dividend_val[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result" type="array">
+      <obj_property name="ElementShortName">sqrt_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sqrt_result[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus23100" type="vbus">
+      <obj_property name="label">sqrt_result[31:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/sqrt_result[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/Hsquare/red_sqrt_result" type="array">
+      <obj_property name="ElementShortName">red_sqrt_result[17:0]</obj_property>
+      <obj_property name="ObjectShortName">red_sqrt_result[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="AnalogYRangeMin">-8.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">8.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/compH" type="array">
+      <obj_property name="ElementShortName">compH[35:0]</obj_property>
+      <obj_property name="ObjectShortName">compH[35:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">22</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">1.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">3.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/compW" type="array">
+      <obj_property name="ElementShortName">compW[35:0]</obj_property>
+      <obj_property name="ObjectShortName">compW[35:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">22</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">1.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">3.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/sum_result" type="array">
+      <obj_property name="ElementShortName">sum_result[36:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_result[36:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">22</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">1.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">3.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_ram_data_in" type="array">
+      <obj_property name="ElementShortName">kernel_ram_data_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_data_in[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">1.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/mem_kernel/val" type="array">
+      <obj_property name="ElementShortName">val[14:0]</obj_property>
+      <obj_property name="ObjectShortName">val[14:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_ram_address" type="array">
+      <obj_property name="ElementShortName">kernel_ram_address[14:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_address[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_ram_data_out" type="array">
+      <obj_property name="ElementShortName">kernel_ram_data_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_data_out[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_ram_data_in" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">kernel_ram_data_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_data_in[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="label">gradient_norm</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus242" type="vbus">
+      <obj_property name="label">gy</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus222" type="vbus">
+      <obj_property name="label">gx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/ram_write_data[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">GRADIENT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/H" type="array">
+      <obj_property name="ElementShortName">H[7:0]</obj_property>
+      <obj_property name="ObjectShortName">H[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/W" type="array">
+      <obj_property name="ElementShortName">W[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/kernel_ready" type="logic">
+      <obj_property name="ElementShortName">kernel_ready</obj_property>
+      <obj_property name="ObjectShortName">kernel_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/ram_gradient_x_write_data" type="array">
+      <obj_property name="ElementShortName">ram_gradient_x_write_data[17:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_gradient_x_write_data[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/ram_gradient_x_address" type="array">
+      <obj_property name="ElementShortName">ram_gradient_x_address[14:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_gradient_x_address[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy" type="array">
+      <obj_property name="ElementShortName">gy[12:0]</obj_property>
+      <obj_property name="ObjectShortName">gy[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">13</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus2030" type="vbus">
+      <obj_property name="label">GY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">13</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gy_square" type="array">
+      <obj_property name="ElementShortName">gy_square[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gy_square[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">26</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gx_square" type="array">
+      <obj_property name="ElementShortName">gx_square[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gx_square[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">26</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square" type="array">
+      <obj_property name="ElementShortName">sum_gradient_square[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_gradient_square[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus2138" type="vbus">
+      <obj_property name="label">New Virtual Bus 68</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">25</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/sum_gradient_square[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient" type="array">
+      <obj_property name="ElementShortName">norm_gradient[15:0]</obj_property>
+      <obj_property name="ObjectShortName">norm_gradient[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus4982" type="vbus">
+      <obj_property name="label">New Virtual Bus 165</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/norm_gradient[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gx" type="array">
+      <obj_property name="ElementShortName">gx[12:0]</obj_property>
+      <obj_property name="ObjectShortName">gx[12:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/ram_gradient_x_write_enable" type="logic">
+      <obj_property name="ElementShortName">ram_gradient_x_write_enable</obj_property>
+      <obj_property name="ObjectShortName">ram_gradient_x_write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/ram_gradient_x_enable" type="logic">
+      <obj_property name="ElementShortName">ram_gradient_x_enable</obj_property>
+      <obj_property name="ObjectShortName">ram_gradient_x_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/gradient_ready" type="logic">
+      <obj_property name="ElementShortName">gradient_ready</obj_property>
+      <obj_property name="ObjectShortName">gradient_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_index" type="array">
+      <obj_property name="ElementShortName">reg_index[17:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_index[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_addr" type="array">
+      <obj_property name="ElementShortName">reg_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/Hcount" type="array">
+      <obj_property name="ElementShortName">Hcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Hcount[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/Wcount" type="array">
+      <obj_property name="ElementShortName">Wcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Wcount[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_write_enable" type="logic">
+      <obj_property name="ElementShortName">reg_write_enable</obj_property>
+      <obj_property name="ObjectShortName">reg_write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_enable" type="logic">
+      <obj_property name="ElementShortName">reg_enable</obj_property>
+      <obj_property name="ObjectShortName">reg_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_read_1" type="array">
+      <obj_property name="ElementShortName">reg_read_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_read_2" type="array">
+      <obj_property name="ElementShortName">reg_read_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_read_3" type="array">
+      <obj_property name="ElementShortName">reg_read_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_read_4" type="array">
+      <obj_property name="ElementShortName">reg_read_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_gradient_ready" type="logic">
+      <obj_property name="ElementShortName">reg_gradient_ready</obj_property>
+      <obj_property name="ObjectShortName">reg_gradient_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/g_x/reg_write_data" type="array">
+      <obj_property name="ElementShortName">reg_write_data[8:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_write_data[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">HIST RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/counter" type="array">
+      <obj_property name="ElementShortName">counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/pmhis_write_en" type="logic">
+      <obj_property name="ElementShortName">pmhis_write_en</obj_property>
+      <obj_property name="ObjectShortName">pmhis_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/pmhis_write_addr" type="array">
+      <obj_property name="ElementShortName">pmhis_write_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pmhis_write_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/pmhis_write_data" type="array">
+      <obj_property name="ElementShortName">pmhis_write_data[24:0]</obj_property>
+      <obj_property name="ObjectShortName">pmhis_write_data[24:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/pmhis_read_data" type="array">
+      <obj_property name="ElementShortName">pmhis_read_data[24:0]</obj_property>
+      <obj_property name="ObjectShortName">pmhis_read_data[24:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/sechis_write_en" type="logic">
+      <obj_property name="ElementShortName">sechis_write_en</obj_property>
+      <obj_property name="ObjectShortName">sechis_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/increment_address_clear" type="logic">
+      <obj_property name="ElementShortName">increment_address_clear</obj_property>
+      <obj_property name="ObjectShortName">increment_address_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/sechis_write_addr" type="array">
+      <obj_property name="ElementShortName">sechis_write_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sechis_write_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/sechis_write_data" type="array">
+      <obj_property name="ElementShortName">sechis_write_data[24:0]</obj_property>
+      <obj_property name="ObjectShortName">sechis_write_data[24:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/sechis_read_data" type="array">
+      <obj_property name="ElementShortName">sechis_read_data[24:0]</obj_property>
+      <obj_property name="ObjectShortName">sechis_read_data[24:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/Hcount" type="array">
+      <obj_property name="ElementShortName">Hcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Hcount[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/Wcount" type="array">
+      <obj_property name="ElementShortName">Wcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Wcount[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/offset_X" type="array">
+      <obj_property name="ElementShortName">offset_X[9:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_X[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/offset_Y" type="array">
+      <obj_property name="ElementShortName">offset_Y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_Y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">CONTROL SIGNALS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/kernel_ready" type="logic">
+      <obj_property name="ElementShortName">kernel_ready</obj_property>
+      <obj_property name="ObjectShortName">kernel_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/del_kernel_ready" type="logic">
+      <obj_property name="ElementShortName">del_kernel_ready</obj_property>
+      <obj_property name="ObjectShortName">del_kernel_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_i/gradient_ready" type="logic">
+      <obj_property name="ElementShortName">gradient_ready</obj_property>
+      <obj_property name="ObjectShortName">gradient_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/full_datapath" type="logic">
+      <obj_property name="ElementShortName">full_datapath</obj_property>
+      <obj_property name="ObjectShortName">full_datapath</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/histogram_enable" type="logic">
+      <obj_property name="ElementShortName">histogram_enable</obj_property>
+      <obj_property name="ObjectShortName">histogram_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/pattern_done" type="logic">
+      <obj_property name="ElementShortName">pattern_done</obj_property>
+      <obj_property name="ObjectShortName">pattern_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/count_histogram/done" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+      <obj_property name="label">histogram_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/candidate_ready" type="logic">
+      <obj_property name="ElementShortName">candidate_ready</obj_property>
+      <obj_property name="ObjectShortName">candidate_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_busy" type="logic">
+      <obj_property name="ElementShortName">similarity_busy</obj_property>
+      <obj_property name="ObjectShortName">similarity_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/stop_calculations" type="logic">
+      <obj_property name="ElementShortName">stop_calculations</obj_property>
+      <obj_property name="ObjectShortName">stop_calculations</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">SIMILARITY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/H" type="array">
+      <obj_property name="ElementShortName">H[7:0]</obj_property>
+      <obj_property name="ObjectShortName">H[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/W" type="array">
+      <obj_property name="ElementShortName">W[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/histogram_iteration_done" type="logic">
+      <obj_property name="ElementShortName">histogram_iteration_done</obj_property>
+      <obj_property name="ObjectShortName">histogram_iteration_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/reg_addr" type="array">
+      <obj_property name="ElementShortName">reg_addr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/image_address" type="array">
+      <obj_property name="ElementShortName">image_address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">image_address[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/Hcount" type="array">
+      <obj_property name="ElementShortName">Hcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Hcount[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/Wcount" type="array">
+      <obj_property name="ElementShortName">Wcount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Wcount[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/kernel_address" type="array">
+      <obj_property name="ElementShortName">kernel_address[14:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_address[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/kernel_ram_data_out" type="array">
+      <obj_property name="ElementShortName">kernel_ram_data_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_data_out[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/kernel_ram_data_out_de" type="array">
+      <obj_property name="ElementShortName">kernel_ram_data_out_de[17:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_ram_data_out_de[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">SQRT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/image_data" type="array">
+      <obj_property name="ElementShortName">image_data[8:0]</obj_property>
+      <obj_property name="ObjectShortName">image_data[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus590" type="vbus">
+      <obj_property name="label">q_hist[20:5]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/q_hist[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus628" type="vbus">
+      <obj_property name="label">p_hist[20:5]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/p_hist[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/divider_result" type="array">
+      <obj_property name="ElementShortName">divider_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">divider_result[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/divider_result_div_14" type="array">
+      <obj_property name="ElementShortName">divider_result_div_14[23:0]</obj_property>
+      <obj_property name="ObjectShortName">divider_result_div_14[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">23</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sqrt_q_p_result_shifted" type="array">
+      <obj_property name="ElementShortName">sqrt_q_p_result_shifted[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sqrt_q_p_result_shifted[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">23</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">SQRT*gradient</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/reg_addr_de" type="array">
+      <obj_property name="ElementShortName">reg_addr_de[17:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr_de[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/gradient_x" type="array">
+      <obj_property name="ElementShortName">gradient_x[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gradient_x[11:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/gradient_y" type="array">
+      <obj_property name="ElementShortName">gradient_y[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gradient_y[11:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/gradient_norm" type="array">
+      <obj_property name="ElementShortName">gradient_norm[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gradient_norm[11:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider440">
+      <obj_property name="label">SQRT*gradient*i</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/adder_enable" type="logic">
+      <obj_property name="ElementShortName">adder_enable</obj_property>
+      <obj_property name="ObjectShortName">adder_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/assign_xy_values" type="logic">
+      <obj_property name="ElementShortName">assign_xy_values</obj_property>
+      <obj_property name="ObjectShortName">assign_xy_values</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sums_clearer" type="logic">
+      <obj_property name="ElementShortName">sums_clearer</obj_property>
+      <obj_property name="ObjectShortName">sums_clearer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sqrt_q_p_result" type="array">
+      <obj_property name="ElementShortName">sqrt_q_p_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sqrt_q_p_result[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">9</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/gradient_y_debug" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">gradient_y_debug[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gradient_y_debug[11:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="label">gradient_x_debug[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_i" type="array">
+      <obj_property name="ElementShortName">num_x_i[27:0]</obj_property>
+      <obj_property name="ObjectShortName">num_x_i[27:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/Hcount_de" type="array">
+      <obj_property name="ElementShortName">Hcount_de[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Hcount_de[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H" type="array">
+      <obj_property name="ElementShortName">num_x_H[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_x_H[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus785" type="vbus">
+      <obj_property name="label">New Virtual Bus 26</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_x_H[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/adder_enable_de" type="logic">
+      <obj_property name="ElementShortName">adder_enable_de</obj_property>
+      <obj_property name="ObjectShortName">adder_enable_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_in" type="array">
+      <obj_property name="ElementShortName">sum_x_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_x_in[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out" type="array">
+      <obj_property name="ElementShortName">sum_x_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_x_out[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/gradient_x_debug" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">gradient_x_debug[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gradient_x_debug[11:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="label">gradient_y_debug[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/Wcount_de" type="array">
+      <obj_property name="ElementShortName">Wcount_de[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Wcount_de[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_y_i" type="array">
+      <obj_property name="ElementShortName">num_y_i[27:0]</obj_property>
+      <obj_property name="ObjectShortName">num_y_i[27:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/num_y_W" type="array">
+      <obj_property name="ElementShortName">num_y_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_y_W[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_in" type="array">
+      <obj_property name="ElementShortName">sum_y_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_y_in[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out" type="array">
+      <obj_property name="ElementShortName">sum_y_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_y_out[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/gradient_norm_debug" type="array">
+      <obj_property name="ElementShortName">gradient_norm_debug[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gradient_norm_debug[11:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus11451" type="vbus">
+      <obj_property name="label">den_sum</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">9</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/den_i[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_in" type="array">
+      <obj_property name="ElementShortName">sum_den_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_den_in[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">9</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out" type="array">
+      <obj_property name="ElementShortName">sum_den_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_den_out[23:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">9</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/div_enable" type="logic">
+      <obj_property name="ElementShortName">div_enable</obj_property>
+      <obj_property name="ObjectShortName">div_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/div_enable_de" type="logic">
+      <obj_property name="ElementShortName">div_enable_de</obj_property>
+      <obj_property name="ObjectShortName">div_enable_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus8840" type="vbus">
+      <obj_property name="label">X</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_x_out[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus8877" type="vbus">
+      <obj_property name="label">Y</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_y_out[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus8914" type="vbus">
+      <obj_property name="label">DEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum_den_out[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/x_division" type="array">
+      <obj_property name="ElementShortName">x_division[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_division[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/x_valid" type="logic">
+      <obj_property name="ElementShortName">x_valid</obj_property>
+      <obj_property name="ObjectShortName">x_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/y_division" type="array">
+      <obj_property name="ElementShortName">y_division[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_division[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/y_valid" type="logic">
+      <obj_property name="ElementShortName">y_valid</obj_property>
+      <obj_property name="ObjectShortName">y_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/m_axis_dout_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/dx" type="array">
+      <obj_property name="ElementShortName">dx[14:0]</obj_property>
+      <obj_property name="ObjectShortName">dx[14:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/dy" type="array">
+      <obj_property name="ElementShortName">dy[14:0]</obj_property>
+      <obj_property name="ObjectShortName">dy[14:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/x_temp" type="array">
+      <obj_property name="ElementShortName">x_temp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">x_temp[10:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/y_temp" type="array">
+      <obj_property name="ElementShortName">y_temp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">y_temp[10:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/simil_iteration_done" type="logic">
+      <obj_property name="ElementShortName">simil_iteration_done</obj_property>
+      <obj_property name="ObjectShortName">simil_iteration_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/xPos" type="array">
+      <obj_property name="ElementShortName">xPos[10:0]</obj_property>
+      <obj_property name="ObjectShortName">xPos[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/yPos" type="array">
+      <obj_property name="ElementShortName">yPos[10:0]</obj_property>
+      <obj_property name="ObjectShortName">yPos[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/xp" type="array">
+      <obj_property name="ElementShortName">xp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">xp[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/yp" type="array">
+      <obj_property name="ElementShortName">yp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">yp[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/offset_X_temp" type="array">
+      <obj_property name="ElementShortName">offset_X_temp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_X_temp[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/offset_Y_temp" type="array">
+      <obj_property name="ElementShortName">offset_Y_temp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_Y_temp[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum7" type="array">
+      <obj_property name="ElementShortName">sum7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum7[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bfm_tb/uut/meanshift_i/similarity_inst/sum8" type="array">
+      <obj_property name="ElementShortName">sum8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum8[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

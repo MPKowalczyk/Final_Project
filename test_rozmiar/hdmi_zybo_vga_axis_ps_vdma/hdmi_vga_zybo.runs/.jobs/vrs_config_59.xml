@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_5" LaunchDir="/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.runs/synth_5" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

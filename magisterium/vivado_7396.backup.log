@@ -1,0 +1,352 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Nov 03 20:25:36 2016
+# Process ID: 7396
+# Current directory: C:/Users/Milosz/Documents/magisterium
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11164 C:\Users\Milosz\Documents\magisterium\magisterium.xpr
+# Log file: C:/Users/Milosz/Documents/magisterium/vivado.log
+# Journal file: C:/Users/Milosz/Documents/magisterium\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Milosz/Documents/magisterium/magisterium.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Milosz/Documents/magisterium16' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/rgb2hsv.sv', nor could it be found using path 'C:/Users/Milosz/Documents/magisterium16/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/rgb2hsv.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/bfm_tb.sv', nor could it be found using path 'C:/Users/Milosz/Documents/magisterium16/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/bfm_tb.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/preload_ddr.txt', nor could it be found using path 'C:/Users/Milosz/Documents/magisterium16/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/preload_ddr.txt'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mult_18_18_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_processing_system7:fixedio:1.0'. The one found in location 'd:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/xilinx.com/processing_system7_v5_5/fixedio.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2016.3/data/ip/xilinx/processing_system7_v5_5/fixedio.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_processing_system7:hpstatusctrl:1.0'. The one found in location 'd:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/xilinx.com/processing_system7_v5_5/hpstatusctrl.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2016.3/data/ip/xilinx/processing_system7_v5_5/hpstatusctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_processing_system7:usbctrl:1.0'. The one found in location 'd:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/xilinx.com/processing_system7_v5_5/usbctrl.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2016.3/data/ip/xilinx/processing_system7_v5_5/usbctrl.xml'
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'bfm.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+bfm_processing_system7_bfm_0_0
+
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 852.418 ; gain = 147.961
+remove_files  {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/rgb2hsv.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/meanshift.sv}
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/rgb2hsv.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/meanshift.sv
+open_bd_design {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd}
+Adding cell -- digilentinc.com:ip:rgb2vga:1.0 - rgb2vga_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- digilentinc.com:ip:dvi2rgb:1.6 - dvi2rgb_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_converter_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.3 - clk_wiz_0
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_150M
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <zordon> from BD file <C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 926.730 ; gain = 32.000
+remove_files  D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/dvi2rgb.vhd
+remove_files  {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/rgb2yuv.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/similarity.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/calc_ker.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/bfm/hdl/bfm_wrapper.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/rgb2yuv_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/histogram.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_9_9_gradient/mult_9_9_gradient.xci C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sum_18_18/sum_18_18.xci C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/tbb.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/thresholding.sv}
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/rgb2yuv.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/similarity.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/calc_ker.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/bfm/hdl/bfm_wrapper.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/rgb2yuv_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/histogram.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_9_9_gradient C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sum_18_18 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/tbb.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/thresholding.sv
+remove_files  -fileset divider C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/divider/divider.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/divider/divider.xci' from fileset 'divider' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/divider
+remove_files  -fileset image_data C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/image_data/image_data.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/image_data/image_data.xci' from fileset 'image_data' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/image_data
+remove_files  -fileset kernel_ram C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/kernel_ram/kernel_ram.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/kernel_ram/kernel_ram.xci' from fileset 'kernel_ram' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/kernel_ram
+remove_files  -fileset primary_histogram C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/primary_histogram/primary_histogram.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/primary_histogram/primary_histogram.xci' from fileset 'primary_histogram' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/primary_histogram
+remove_files  {D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/TMDS_Decoder.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/TMDS_Clocking.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/EEPROM_8b.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/ResyncToBUFG.vhd}
+remove_files  {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/calc.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/gradient_x.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/bfm/bfm.bd C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/num_height.v}
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/calc.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/gradient_x.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/bfm C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/num_height.v
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files/bd/bfm
+remove_files  -fileset div_16_16_hist C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_16_16_hist/div_16_16_hist.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_16_16_hist/div_16_16_hist.xci' from fileset 'div_16_16_hist' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_16_16_hist
+remove_files  -fileset div_16_16_simil C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_16_16_simil/div_16_16_simil.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_16_16_simil/div_16_16_simil.xci' from fileset 'div_16_16_simil' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_16_16_simil
+remove_files  -fileset multiplier C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/multiplier/multiplier.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/multiplier/multiplier.xci' from fileset 'multiplier' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/multiplier
+remove_files  -fileset sqrt_w C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sqrt_w/sqrt_w.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sqrt_w/sqrt_w.xci' from fileset 'sqrt_w' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sqrt_w
+remove_files  -fileset sum_17_24 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sum_17_24/sum_17_24.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sum_17_24/sum_17_24.xci' from fileset 'sum_17_24' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sum_17_24
+remove_files  -fileset mult_12_16 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_12_16/mult_12_16.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_12_16/mult_12_16.xci' from fileset 'mult_12_16' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_12_16
+remove_files  -fileset mult_7_25 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_7_25/mult_7_25.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_7_25/mult_7_25.xci' from fileset 'mult_7_25' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_7_25
+remove_files  {D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/TWI_SlaveCtl.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/SyncAsyncReset.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/SyncBase.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/ChannelBond.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/InputSERDES.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/PhaseAlign.vhd}
+remove_files  {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/bfm_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/rgb2dvi_sim/hdl/rgb2dvi_sim_wrapper.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon_wrapper.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/delay.sv}
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/bfm_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/rgb2dvi_sim/hdl/rgb2dvi_sim_wrapper.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon_wrapper.v C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/delay.sv
+remove_files  -fileset mult_18_18 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_18_18/mult_18_18.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_18_18/mult_18_18.xci' from fileset 'mult_18_18' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_18_18
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files/ip/mult_18_18 C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files/sim_scripts/mult_18_18
+remove_files  -fileset sim_1 {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/new/DDR_mem_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/new/temp.sv}
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/new/DDR_mem_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/new/temp.sv
+remove_files  -fileset div_8_8 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_8_8/div_8_8.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_8_8/div_8_8.xci' from fileset 'div_8_8' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_8_8
+remove_files  -fileset div_9_16 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_9_16/div_9_16.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_9_16/div_9_16.xci' from fileset 'div_9_16' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/div_9_16
+remove_files  -fileset mult_16_16 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_16_16/mult_16_16.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_16_16/mult_16_16.xci' from fileset 'mult_16_16' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_16_16
+remove_files  -fileset mult_8_16 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_8_16/mult_8_16.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_8_16/mult_8_16.xci' from fileset 'mult_8_16' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/mult_8_16
+remove_files  -fileset sqrt_18 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sqrt_18/sqrt_18.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sqrt_18/sqrt_18.xci' from fileset 'sqrt_18' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sqrt_18
+remove_files  -fileset sub_15_16 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sub_15_16/sub_15_16.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sub_15_16/sub_15_16.xci' from fileset 'sub_15_16' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sub_15_16
+remove_files  -fileset sub_9_8 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sub_9_8/sub_9_8.xci
+INFO: [Project 1-386] Moving file 'C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sub_9_8/sub_9_8.xci' from fileset 'sub_9_8' to fileset 'sources_1'.
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/ip/sub_9_8
+set_property top magisterium [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+remove_files  C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/DDR_mem_BRAM_tb/hdl/DDR_mem_BRAM_tb_wrapper.v
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/DDR_mem_BRAM_tb/hdl/DDR_mem_BRAM_tb_wrapper.v
+remove_files  {D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/GlitchFilter.vhd D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/bd/zordon/ipshared/digilentinc.com/dvi2rgb_v1_6/src/SyncAsync.vhd}
+remove_files  C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/rgb2dvi_sim/rgb2dvi_sim.bd
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/rgb2dvi_sim
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files/bd/rgb2dvi_sim
+remove_files  C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/DDR_mem_BRAM_tb/DDR_mem_BRAM_tb.bd
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/DDR_mem_BRAM_tb
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files/bd/DDR_mem_BRAM_tb
+remove_files  -fileset sim_1 {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame1.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame10.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame11.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame12.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame13.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame2.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame3.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame4.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame5.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame6.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame7.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame8.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/new/frames/frame9.txt}
+remove_files  -fileset sim_1 {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/new/output1.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/new/output2.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/preload_ddr.txt}
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/new/output1.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/new/output2.txt C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/preload_ddr.txt
+remove_files  -fileset sim_1 {C:/Users/Milosz/Documents/magisterium/DDR_mem_tb.wcfg C:/Users/Milosz/Documents/magisterium/bfm_tb_behav.wcfg C:/Users/Milosz/Documents/magisterium/master.wcfg}
+remove_files  -fileset sim_1 C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/master.wcfg
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/master.wcfg
+make_wrapper -files [get_files C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd] -top
+INFO: [BD 41-1662] The design 'zordon.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon.v
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon_wrapper.v
+add_files -norecurse C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon_wrapper.v
+remove_files  -fileset sim_1 {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/bfm_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/rgb2hsv.sv}
+file delete -force C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/bfm_tb.sv C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sim_1/imports/magisterium/magisterium.srcs/sources_1/new/rgb2hsv.sv
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'zordon.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon.v
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2vga_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_150M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_protocol_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hw_handoff/zordon.hwh
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.ASYNCRST' 
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.ASYNCRST' 
+WARNING: [IP_Flow 19-3553] Error found in parameter dependencies in XGUI files. Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.ASYNCRST' 
+
+Generated Block Design Tcl file C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hw_handoff/zordon_bd.tcl
+Generated Hardware Definition File C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon.hwdef
+[Thu Nov 03 20:38:16 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/synth_1/runme.log
+[Thu Nov 03 20:38:16 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:37 . Memory (MB): peak = 1116.602 ; gain = 84.941
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov 03 20:41:26 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/synth_1/runme.log
+[Thu Nov 03 20:41:26 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 1116.602 ; gain = 0.000
+open_hw
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/ip/zordon_clk_wiz_0_0/zordon_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/ip/zordon_clk_wiz_0_0/zordon_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1829.695 ; gain = 502.762
+Finished Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium_early.xdc]
+Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium.xdc]
+CRITICAL WARNING: [Constraints 18-851] Could not find an automatically derived clock matching the supplied criteria for renaming. [C:/Users/Milosz/Documents/magisterium/magisterium.srcs/constrs_1/imports/project_2.hw/ZYBO_Master.xdc:2]
+Resolution: Review the create_generated_clock renaming specification. Use the report_clocks command to obtain the details of currently defined clocks and ensure that the create_generated_clock rename constraint specifies appropriate data to select one generated clock for renaming. Verify that you are attempting to rename a tool derived generated clock, and not a user defined generated clock.
+Finished Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.735 . Memory (MB): peak = 1854.945 ; gain = 25.219
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.735 . Memory (MB): peak = 1854.945 ; gain = 25.219
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 9 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+open_run: Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 1948.289 ; gain = 777.898
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-2] Deriving generated clocks
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_CLK1]
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets processing_system7_0_FCLK_CLK1]'
+disconnect_bd_net /processing_system7_0_FCLK_CLK1 [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
+connect_bd_net [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins clk_wiz_0/clk_out1]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins clk_wiz_0/clk_out1]'
+undo
+INFO: [Common 17-17] undo 'disconnect_bd_net /processing_system7_0_FCLK_CLK1 [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]'
+disconnect_bd_net /clk_wiz_1_clk_out2 [get_bd_pins clk_wiz_0/clk_out1]
+connect_bd_net [get_bd_ports ps_ddr_aclk] [get_bd_pins processing_system7_0/FCLK_CLK1]
+disconnect_bd_net /processing_system7_0_FCLK_CLK1 [get_bd_pins dvi2rgb_0/RefClk]
+connect_bd_net [get_bd_pins dvi2rgb_0/RefClk] [get_bd_pins clk_wiz_0/clk_out1]
+save_bd_design
+Wrote  : <C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd> 
+Wrote  : <C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/ui/bd_5df2c166.ui> 
+generate_target all [get_files  C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd]
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon.v
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon_wrapper.v
+Wrote  : <C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd> 
+WARNING: [xilinx.com:ip:processing_system7:5.5-1] zordon_processing_system7_0_0: The Zynq BFM requires an AXI BFM license to run. Please ensure that you have purchased and setup the AXI BFM license prior to running simulation with this block. Please contact your Xilinx sales office for more information on purchasing this license
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2vga_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_150M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_protocol_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hw_handoff/zordon.hwh
+Generated Block Design Tcl file C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hw_handoff/zordon_bd.tcl
+Generated Hardware Definition File C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon.hwdef
+generate_target: Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 2279.441 ; gain = 87.840
+export_ip_user_files -of_objects [get_files C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd] -directory C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files -ipstatic_source_dir C:/Users/Milosz/Documents/magisterium/magisterium.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Milosz/Documents/magisterium/magisterium.cache/compile_simlib/modelsim} {questa=C:/Users/Milosz/Documents/magisterium/magisterium.cache/compile_simlib/questa} {riviera=C:/Users/Milosz/Documents/magisterium/magisterium.cache/compile_simlib/riviera} {activehdl=C:/Users/Milosz/Documents/magisterium/magisterium.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+regenerate_bd_layout
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  {C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/if C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/tcl} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/if'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/tcl'.
+make_wrapper -files [get_files C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd] -top
+save_bd_design
+Wrote  : <C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/ui/bd_5df2c166.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov 03 21:20:59 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/synth_1/runme.log
+[Thu Nov 03 21:20:59 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 2301.898 ; gain = 0.000
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.ASYNCRST' 
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.ASYNCRST' 
+WARNING: [IP_Flow 19-3553] Error found in parameter dependencies in XGUI files. Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.ASYNCRST' 
+
+startgroup
+set_property -dict [list CONFIG.kEdidFileName {720p_edid.txt}] [get_bd_cells dvi2rgb_0]
+endgroup
+save_bd_design
+Wrote  : <C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon.v
+Verilog Output written to : C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon_wrapper.v
+Wrote  : <C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/zordon.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2vga_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_150M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_protocol_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hw_handoff/zordon.hwh
+Generated Block Design Tcl file C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hw_handoff/zordon_bd.tcl
+Generated Hardware Definition File C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/hdl/zordon.hwdef
+[Thu Nov 03 21:22:49 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/synth_1/runme.log
+[Thu Nov 03 21:22:49 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Milosz/Documents/magisterium/magisterium.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:37 . Memory (MB): peak = 2341.883 ; gain = 39.984
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_2
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+refresh_design
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/ip/zordon_clk_wiz_0_0/zordon_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [C:/Users/Milosz/Documents/magisterium/magisterium.srcs/sources_1/bd/zordon/ip/zordon_clk_wiz_0_0/zordon_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium_early.xdc]
+Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium.xdc]
+Finished Parsing XDC File [C:/Users/Milosz/Documents/magisterium/.Xil/Vivado-7396-Zordon/dcp/magisterium.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.648 . Memory (MB): peak = 2341.883 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.648 . Memory (MB): peak = 2341.883 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 2363.457 ; gain = 21.574
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-2] Deriving generated clocks
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+file copy -force C:/Users/Milosz/Documents/magisterium/magisterium.runs/impl_1/magisterium.sysdef C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf
+
+launch_sdk -workspace C:/Users/Milosz/Documents/magisterium/magisterium.sdk -hwspec C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Milosz/Documents/magisterium/magisterium.sdk -hwspec C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file copy -force C:/Users/Milosz/Documents/magisterium/magisterium.runs/impl_1/magisterium.sysdef C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf
+
+launch_sdk -workspace C:/Users/Milosz/Documents/magisterium/magisterium.sdk -hwspec C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Milosz/Documents/magisterium/magisterium.sdk -hwspec C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 03 21:49:00 2016...

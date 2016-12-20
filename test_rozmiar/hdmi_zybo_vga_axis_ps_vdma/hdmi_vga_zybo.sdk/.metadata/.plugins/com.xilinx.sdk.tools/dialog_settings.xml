@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="hdmi_vga_vision_wrapper_hw_platform_1" key="programflash.hwplatform"/>
+	<item value="" key="hdmi_vga_vision_wrapper_hw_platform_1-fsblFile"/>
+	<item value="false" key="hdmi_vga_vision_wrapper_hw_platform_1-verifyFlash"/>
+	<item value="Local" key="hdmi_vga_vision_wrapper_hw_platform_1-target"/>
+	<item value="" key="hdmi_vga_vision_wrapper_hw_platform_1-offSet"/>
+	<item value="qspi_single" key="hdmi_vga_vision_wrapper_hw_platform_1-flashType"/>
+	<item value="false" key="hdmi_vga_vision_wrapper_hw_platform_1-blankCheck"/>
+	<item value="" key="hdmi_vga_vision_wrapper_hw_platform_1-imgFile"/>
+	<item value="Auto Detect" key="hdmi_vga_vision_wrapper_hw_platform_1-device"/>
+</section>

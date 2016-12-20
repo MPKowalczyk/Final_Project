@@ -1,0 +1,8 @@
+15:52:11 **** Incremental Build of configuration Debug for project magisterum ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nie ma nic do zrobienia w `main-build'.
+
+15:52:12 Build Finished (took 946ms)
+

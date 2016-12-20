@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zybo/hdmi_vga_zybo_1/hdmi_vga_zybo.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="96000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/dvi2rgb_0_PixelClk" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/dvi2rgb_0_PixelClk</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/dvi2rgb_0_PixelClk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_tc_0_active_video_out" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_tc_0_active_video_out</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_tc_0_active_video_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_tc_0_hblank_out" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_tc_0_hblank_out</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_tc_0_hblank_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_tc_0_hsync_out" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_tc_0_hsync_out</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_tc_0_hsync_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_tc_0_vblank_out" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_tc_0_vblank_out</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_tc_0_vblank_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_tc_0_vsync_out" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_tc_0_vsync_out</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_tc_0_vsync_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_active_video" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_active_video</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_active_video</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_hsync" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_hsync</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_vsync" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_vsync</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vid_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_axi4s_vid_out_0_vtg_ce" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vtg_ce</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_axi4s_vid_out_0_vtg_ce</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="hdmi_vga_vision_i/v_vid_in_axi4s_0_video_out_TREADY" type="logic">
+      <obj_property name="ElementShortName">hdmi_vga_vision_i/v_vid_in_axi4s_0_video_out_TREADY</obj_property>
+      <obj_property name="ObjectShortName">hdmi_vga_vision_i/v_vid_in_axi4s_0_video_out_TREADY</obj_property>
+   </wvobject>
+</wave_config>

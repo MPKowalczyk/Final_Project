@@ -1,0 +1,120 @@
+{
+   commentid: "",
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 290 -defaultsOSRD
+preplace port TMDS -pg 1 -y 720 -defaultsOSRD
+preplace port vga_hs -pg 1 -y 800 -defaultsOSRD
+preplace port led_0 -pg 1 -y 640 -defaultsOSRD
+preplace port led_1 -pg 1 -y 620 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 270 -defaultsOSRD
+preplace port clk -pg 1 -y 790 -defaultsOSRD
+preplace port vga_vs -pg 1 -y 820 -defaultsOSRD
+preplace port GPIO -pg 1 -y 350 -defaultsOSRD
+preplace port DDC -pg 1 -y 680 -defaultsOSRD
+preplace portBus sw -pg 1 -y 1160 -defaultsOSRD
+preplace portBus vga_b -pg 1 -y 780 -defaultsOSRD
+preplace portBus hdmi_hpd -pg 1 -y 990 -defaultsOSRD
+preplace portBus vga_r -pg 1 -y 740 -defaultsOSRD
+preplace portBus vga_g -pg 1 -y 760 -defaultsOSRD
+preplace portBus HDMI_OEN -pg 1 -y 910 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 7 -y 130 -defaultsOSRD
+preplace inst srodek_0 -pg 1 -lvl 6 -y 480 -defaultsOSRD
+preplace inst RGB_unpack_0 -pg 1 -lvl 3 -y 790 -defaultsOSRD
+preplace inst mux_6_1_0 -pg 1 -lvl 6 -y 970 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 9 -y 910 -defaultsOSRD
+preplace inst grey_scale_0 -pg 1 -lvl 4 -y 960 -defaultsOSRD
+preplace inst proste_0 -pg 1 -lvl 7 -y 550 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 9 -y 990 -defaultsOSRD
+preplace inst AXI_Slave_0 -pg 1 -lvl 9 -y 510 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 9 -y 350 -defaultsOSRD
+preplace inst binary_0 -pg 1 -lvl 5 -y 790 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 8 -y 130 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 780 -defaultsOSRD
+preplace inst gradient_hessian_0 -pg 1 -lvl 5 -y 1020 -defaultsOSRD
+preplace inst dvi2rgb_0 -pg 1 -lvl 2 -y 750 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -y 320 -defaultsOSRD
+preplace inst RGB_pack_0 -pg 1 -lvl 8 -y 790 -defaultsOSRD
+preplace inst rgb2vga_0 -pg 1 -lvl 9 -y 780 -defaultsOSRD
+preplace netloc RGB_unpack_0_out_PClk 1 3 2 660 850 N
+preplace netloc processing_system7_0_FIXED_IO 1 7 3 NJ 300 2270J 270 NJ
+preplace netloc grey_scale_0_grey 1 4 1 960
+preplace netloc gradient_hessian_0_de_out 1 5 2 N 1090 1510J
+preplace netloc grey_scale_0_hsync_out 1 4 1 950
+preplace netloc gradient_hessian_0_grey_out 1 5 1 N
+preplace netloc srodek_0_x_ready 1 6 4 1480 220 1970J 470 2280 640 NJ
+preplace netloc AXI_Slave_0_interrupt 1 6 4 1520 40 1980J 270 2250J 40 2570
+preplace netloc srodek_0_y_ready 1 6 4 1490 420 NJ 420 2250 620 NJ
+preplace netloc TMDS_1 1 0 2 NJ 720 NJ
+preplace netloc gradient_hessian_0_clk_out 1 5 2 N 1110 1530J
+preplace netloc binary_0_out_vsync 1 5 1 1210
+preplace netloc axi_gpio_0_GPIO 1 9 1 NJ
+preplace netloc RGB_pack_0_out_RGB 1 8 1 N
+preplace netloc dvi2rgb_0_vid_pVSync 1 2 1 440
+preplace netloc processing_system7_0_DDR 1 7 3 NJ 280 NJ 280 2580J
+preplace netloc rgb2vga_0_vga_pBlue 1 9 1 NJ
+preplace netloc dvi2rgb_0_DDC 1 2 8 NJ 680 NJ 680 NJ 680 NJ 680 NJ 680 NJ 680 NJ 680 NJ
+preplace netloc gradient_hessian_0_hsync_out 1 5 2 1240 580 1520J
+preplace netloc xlconstant_1_dout 1 9 1 NJ
+preplace netloc rgb2vga_0_vga_pVSync 1 9 1 NJ
+preplace netloc ps7_0_axi_periph_M00_AXI 1 8 1 2290
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 7 2 1990 370 2290
+preplace netloc binary_0_out_clk 1 5 1 1230
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 6 2 1530 20 1900
+preplace netloc dvi2rgb_0_vid_pVDE 1 2 1 430
+preplace netloc gradient_hessian_0_Gx 1 5 1 N
+preplace netloc gradient_hessian_0_Gy 1 5 1 N
+preplace netloc ps7_0_axi_periph_M01_AXI 1 8 1 2280
+preplace netloc RGB_pack_0_out_VSync 1 8 1 N
+preplace netloc mux_6_1_0_grey_out 1 6 1 1490
+preplace netloc grey_scale_0_de_out 1 4 1 930
+preplace netloc rgb2vga_0_vga_pHSync 1 9 1 NJ
+preplace netloc proste_0_outred 1 7 1 1950
+preplace netloc sw_1 1 0 6 NJ 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 1260J
+preplace netloc RGB_unpack_0_out_HSync 1 3 2 690 790 N
+preplace netloc dvi2rgb_0_PixelClk 1 2 1 420
+preplace netloc RGB_unpack_0_out_B 1 3 2 700 770 N
+preplace netloc RGB_pack_0_out_HSync 1 8 1 N
+preplace netloc RGB_pack_0_out_DE 1 8 1 N
+preplace netloc RGB_unpack_0_out_VSync 1 3 2 680 810 N
+preplace netloc binary_0_out_de 1 5 1 1220
+preplace netloc proste_0_outgreen 1 7 1 1940
+preplace netloc rgb2vga_0_vga_pRed 1 9 1 NJ
+preplace netloc proste_0_out_de 1 7 1 1900
+preplace netloc processing_system7_0_FCLK_CLK0 1 6 3 1510 10 1930 340 2270
+preplace netloc binary_0_out_hsync 1 5 1 1200
+preplace netloc srodek_0_x_act 1 6 1 N
+preplace netloc rgb2vga_0_vga_pGreen 1 9 1 NJ
+preplace netloc gradient_hessian_0_Hyy 1 5 1 N
+preplace netloc grey_scale_0_vsync_out 1 4 1 940
+preplace netloc proste_0_out_hsync 1 7 1 1920
+preplace netloc grey_scale_0_clk_out 1 4 1 920
+preplace netloc dvi2rgb_0_vid_pData 1 2 1 460
+preplace netloc gradient_hessian_0_vsync_out 1 5 2 1250 590 NJ
+preplace netloc RGB_unpack_0_out_G 1 3 2 710 750 N
+preplace netloc binary_0_mask 1 5 1 1190
+preplace netloc dvi2rgb_0_vid_pHSync 1 2 1 450
+preplace netloc proste_0_outblue 1 7 1 1930
+preplace netloc srodek_0_y_act 1 6 1 N
+preplace netloc RGB_pack_0_out_PClk 1 8 1 N
+preplace netloc proste_0_out_clk 1 7 1 1890
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 7 1 1890
+preplace netloc proste_0_out_vsync 1 7 1 1910
+preplace netloc clk_wiz_0_clk_out1 1 1 1 180J
+preplace netloc processing_system7_0_M_AXI_GP0 1 7 1 1950
+preplace netloc RGB_unpack_0_out_DE 1 3 2 670 830 N
+preplace netloc xlconstant_0_dout 1 9 1 NJ
+preplace netloc srodek_0_x 1 6 3 1520 410 NJ 410 2260J
+preplace netloc srodek_0_y 1 6 3 1500 230 1960J 530 NJ
+preplace netloc RGB_unpack_0_out_R 1 3 2 720 730 N
+preplace netloc gradient_hessian_0_Hxx 1 5 1 N
+preplace netloc clk_1 1 0 1 NJ
+preplace netloc gradient_hessian_0_Hxy 1 5 1 N
+levelinfo -pg 1 0 100 300 560 830 1080 1370 1710 2120 2430 2600 -top 0 -bot 1180
+",
+}
+{
+   da_axi4_cnt: "8",
+   da_board_cnt: "5",
+   da_ps7_cnt: "2",
+}

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Nov 03 22:06:26 2016
+# Process ID: 11128
+# Current directory: C:/Users/Milosz/Documents/magisterium
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5604 C:\Users\Milosz\Documents\magisterium\magisterium.xpr
+# Log file: C:/Users/Milosz/Documents/magisterium/vivado.log
+# Journal file: C:/Users/Milosz/Documents/magisterium\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Milosz/Documents/magisterium/magisterium.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/Users/Milosz/Documents/magisterium/magisterium.runs/impl_1/magisterium.sysdef C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf
+
+launch_sdk -workspace C:/Users/Milosz/Documents/magisterium/magisterium.sdk -hwspec C:/Users/Milosz/Documents/magisterium/magisterium.sdk/magisterium.hdf

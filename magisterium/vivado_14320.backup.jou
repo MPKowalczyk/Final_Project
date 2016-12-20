@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Oct 28 02:01:17 2016
+# Process ID: 14320
+# Current directory: D:/OneDrive/mag/MSc_ZYBO/magisterium16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11180 D:\OneDrive\mag\MSc_ZYBO\magisterium16\magisterium.xpr
+# Log file: D:/OneDrive/mag/MSc_ZYBO/magisterium16/vivado.log
+# Journal file: D:/OneDrive/mag/MSc_ZYBO/magisterium16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/OneDrive/mag/MSc_ZYBO/magisterium16/magisterium.xpr

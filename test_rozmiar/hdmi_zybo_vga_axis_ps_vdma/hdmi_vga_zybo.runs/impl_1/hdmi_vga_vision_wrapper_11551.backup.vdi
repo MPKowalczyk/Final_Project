@@ -1,0 +1,625 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Nov  4 18:54:03 2016
+# Process ID: 11551
+# Current directory: /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.runs/impl_1
+# Command line: vivado -log hdmi_vga_vision_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source hdmi_vga_vision_wrapper.tcl -notrace
+# Log file: /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.runs/impl_1/hdmi_vga_vision_wrapper.vdi
+# Journal file: /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source hdmi_vga_vision_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 297 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'hdmi_vga_vision_i/dvi2rgb_0/U0'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'hdmi_vga_vision_i/dvi2rgb_0/U0'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_clk_wiz_0_0/hdmi_vga_vision_clk_wiz_0_0_board.xdc] for cell 'hdmi_vga_vision_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_clk_wiz_0_0/hdmi_vga_vision_clk_wiz_0_0_board.xdc] for cell 'hdmi_vga_vision_i/clk_wiz_0/inst'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_clk_wiz_0_0/hdmi_vga_vision_clk_wiz_0_0.xdc] for cell 'hdmi_vga_vision_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_clk_wiz_0_0/hdmi_vga_vision_clk_wiz_0_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_clk_wiz_0_0/hdmi_vga_vision_clk_wiz_0_0.xdc:56]
+get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1764.648 ; gain = 485.523 ; free physical = 20724 ; free virtual = 31709
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_clk_wiz_0_0/hdmi_vga_vision_clk_wiz_0_0.xdc] for cell 'hdmi_vga_vision_i/clk_wiz_0/inst'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_processing_system7_0_0/hdmi_vga_vision_processing_system7_0_0.xdc] for cell 'hdmi_vga_vision_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_processing_system7_0_0/hdmi_vga_vision_processing_system7_0_0.xdc] for cell 'hdmi_vga_vision_i/processing_system7_0/inst'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_rst_processing_system7_0_100M_0/hdmi_vga_vision_rst_processing_system7_0_100M_0_board.xdc] for cell 'hdmi_vga_vision_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_rst_processing_system7_0_100M_0/hdmi_vga_vision_rst_processing_system7_0_100M_0_board.xdc] for cell 'hdmi_vga_vision_i/rst_processing_system7_0_100M'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_rst_processing_system7_0_100M_0/hdmi_vga_vision_rst_processing_system7_0_100M_0.xdc] for cell 'hdmi_vga_vision_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_rst_processing_system7_0_100M_0/hdmi_vga_vision_rst_processing_system7_0_100M_0.xdc] for cell 'hdmi_vga_vision_i/rst_processing_system7_0_100M'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_axi_vdma_0_0/hdmi_vga_vision_axi_vdma_0_0.xdc] for cell 'hdmi_vga_vision_i/axi_vdma_0/U0'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_axi_vdma_0_0/hdmi_vga_vision_axi_vdma_0_0.xdc] for cell 'hdmi_vga_vision_i/axi_vdma_0/U0'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc]
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_v_vid_in_axi4s_0_0/hdmi_vga_vision_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/v_vid_in_axi4s_0/inst'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_v_vid_in_axi4s_0_0/hdmi_vga_vision_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/v_vid_in_axi4s_0/inst'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_v_tc_0_0/hdmi_vga_vision_v_tc_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/v_tc_0/U0'
+INFO: [Timing 38-2] Deriving generated clocks [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_v_tc_0_0/hdmi_vga_vision_v_tc_0_0_clocks.xdc:2]
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_v_tc_0_0/hdmi_vga_vision_v_tc_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/v_tc_0/U0'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_v_axi4s_vid_out_0_0/hdmi_vga_vision_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/v_axi4s_vid_out_0/inst'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_v_axi4s_vid_out_0_0/hdmi_vga_vision_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/v_axi4s_vid_out_0/inst'
+Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_axi_vdma_0_0/hdmi_vga_vision_axi_vdma_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/axi_vdma_0/U0'
+Finished Parsing XDC File [/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.srcs/sources_1/bd/hdmi_vga_vision/ip/hdmi_vga_vision_axi_vdma_0_0/hdmi_vga_vision_axi_vdma_0_0_clocks.xdc] for cell 'hdmi_vga_vision_i/axi_vdma_0/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 10 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1779.648 ; gain = 865.594 ; free physical = 20735 ; free virtual = 31691
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2015.12' and will expire in -309 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1851.684 ; gain = 64.031 ; free physical = 20731 ; free virtual = 31688
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 1e0a88de4
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 19dedaa0a
+
+Time (s): cpu = 00:00:00.71 ; elapsed = 00:00:00.69 . Memory (MB): peak = 1851.684 ; gain = 0.000 ; free physical = 20736 ; free virtual = 31684
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 548 cells.
+Phase 2 Constant Propagation | Checksum: 214475447
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1851.684 ; gain = 0.000 ; free physical = 20735 ; free virtual = 31684
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 2745 unconnected nets.
+INFO: [Opt 31-11] Eliminated 1863 unconnected cells.
+Phase 3 Sweep | Checksum: 1f0a87ac2
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1851.684 ; gain = 0.000 ; free physical = 20727 ; free virtual = 31675
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1851.684 ; gain = 0.000 ; free physical = 20727 ; free virtual = 31675
+Ending Logic Optimization Task | Checksum: 1f0a87ac2
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1851.684 ; gain = 0.000 ; free physical = 20727 ; free virtual = 31675
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 1 BRAM(s) out of a total of 3 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 3 newly gated: 0 Total Ports: 6
+Ending PowerOpt Patch Enables Task | Checksum: 24fc0c9ae
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20585 ; free virtual = 31534
+Ending Power Optimization Task | Checksum: 24fc0c9ae
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2054.859 ; gain = 203.176 ; free physical = 20585 ; free virtual = 31534
+INFO: [Common 17-83] Releasing license: Implementation
+29 Infos, 8 Warnings, 8 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2054.859 ; gain = 275.211 ; free physical = 20585 ; free virtual = 31534
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20582 ; free virtual = 31534
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.runs/impl_1/hdmi_vga_vision_wrapper_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2015.12' and will expire in -309 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20579 ; free virtual = 31533
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20581 ; free virtual = 31534
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: e15b47f6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.73 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20581 ; free virtual = 31534
+WARNING: [Place 30-12] An IO Bus FIXED_IO_mio with more than one IO standard is found. Components associated with this bus are: 
+	FIXED_IO_mio[53] of IOStandard LVCMOS18
+	FIXED_IO_mio[52] of IOStandard LVCMOS18
+	FIXED_IO_mio[51] of IOStandard LVCMOS18
+	FIXED_IO_mio[50] of IOStandard LVCMOS18
+	FIXED_IO_mio[49] of IOStandard LVCMOS18
+	FIXED_IO_mio[48] of IOStandard LVCMOS18
+	FIXED_IO_mio[47] of IOStandard LVCMOS18
+	FIXED_IO_mio[46] of IOStandard LVCMOS18
+	FIXED_IO_mio[45] of IOStandard LVCMOS18
+	FIXED_IO_mio[44] of IOStandard LVCMOS18
+	FIXED_IO_mio[43] of IOStandard LVCMOS18
+	FIXED_IO_mio[42] of IOStandard LVCMOS18
+	FIXED_IO_mio[41] of IOStandard LVCMOS18
+	FIXED_IO_mio[40] of IOStandard LVCMOS18
+	FIXED_IO_mio[39] of IOStandard LVCMOS18
+	FIXED_IO_mio[38] of IOStandard LVCMOS18
+	FIXED_IO_mio[37] of IOStandard LVCMOS18
+	FIXED_IO_mio[36] of IOStandard LVCMOS18
+	FIXED_IO_mio[35] of IOStandard LVCMOS18
+	FIXED_IO_mio[34] of IOStandard LVCMOS18
+	FIXED_IO_mio[33] of IOStandard LVCMOS18
+	FIXED_IO_mio[32] of IOStandard LVCMOS18
+	FIXED_IO_mio[31] of IOStandard LVCMOS18
+	FIXED_IO_mio[30] of IOStandard LVCMOS18
+	FIXED_IO_mio[29] of IOStandard LVCMOS18
+	FIXED_IO_mio[28] of IOStandard LVCMOS18
+	FIXED_IO_mio[27] of IOStandard HSTL_I_18
+	FIXED_IO_mio[26] of IOStandard HSTL_I_18
+	FIXED_IO_mio[25] of IOStandard HSTL_I_18
+	FIXED_IO_mio[24] of IOStandard HSTL_I_18
+	FIXED_IO_mio[23] of IOStandard HSTL_I_18
+	FIXED_IO_mio[22] of IOStandard HSTL_I_18
+	FIXED_IO_mio[21] of IOStandard HSTL_I_18
+	FIXED_IO_mio[20] of IOStandard HSTL_I_18
+	FIXED_IO_mio[19] of IOStandard HSTL_I_18
+	FIXED_IO_mio[18] of IOStandard HSTL_I_18
+	FIXED_IO_mio[17] of IOStandard HSTL_I_18
+	FIXED_IO_mio[16] of IOStandard HSTL_I_18
+	FIXED_IO_mio[15] of IOStandard LVCMOS18
+	FIXED_IO_mio[14] of IOStandard LVCMOS18
+	FIXED_IO_mio[13] of IOStandard LVCMOS18
+	FIXED_IO_mio[12] of IOStandard LVCMOS18
+	FIXED_IO_mio[11] of IOStandard LVCMOS18
+	FIXED_IO_mio[10] of IOStandard LVCMOS18
+	FIXED_IO_mio[9] of IOStandard LVCMOS18
+	FIXED_IO_mio[8] of IOStandard LVCMOS18
+	FIXED_IO_mio[7] of IOStandard LVCMOS18
+	FIXED_IO_mio[6] of IOStandard LVCMOS18
+	FIXED_IO_mio[5] of IOStandard LVCMOS18
+	FIXED_IO_mio[4] of IOStandard LVCMOS18
+	FIXED_IO_mio[3] of IOStandard LVCMOS18
+	FIXED_IO_mio[2] of IOStandard LVCMOS18
+	FIXED_IO_mio[1] of IOStandard LVCMOS18
+	FIXED_IO_mio[0] of IOStandard LVCMOS18
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: e15b47f6
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20568 ; free virtual = 31521
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: e15b47f6
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20584 ; free virtual = 31537
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 5d6ba10e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20584 ; free virtual = 31537
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: c6334c4b
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20584 ; free virtual = 31537
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: 18995d9ad
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20590 ; free virtual = 31543
+Phase 1.2.1 Place Init Design | Checksum: 18bf54c53
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20575 ; free virtual = 31530
+Phase 1.2 Build Placer Netlist Model | Checksum: 18bf54c53
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20575 ; free virtual = 31530
+
+Phase 1.3 Constrain Clocks/Macros
+
+Phase 1.3.1 Constrain Global/Regional Clocks
+Phase 1.3.1 Constrain Global/Regional Clocks | Checksum: 18bf54c53
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20576 ; free virtual = 31530
+Phase 1.3 Constrain Clocks/Macros | Checksum: 18bf54c53
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20576 ; free virtual = 31530
+Phase 1 Placer Initialization | Checksum: 18bf54c53
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2054.859 ; gain = 0.000 ; free physical = 20576 ; free virtual = 31530
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 237258dab
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21054 ; free virtual = 31999
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 237258dab
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21054 ; free virtual = 31999
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 2006e92ec
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:11 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21053 ; free virtual = 31998
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1ff8290d2
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:12 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21053 ; free virtual = 31998
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 1ff8290d2
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:12 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21053 ; free virtual = 31998
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1d3f16a2b
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:12 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21053 ; free virtual = 31998
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1d3f16a2b
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:12 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21053 ; free virtual = 31998
+
+Phase 3.7 Small Shape Detail Placement
+
+Phase 3.7.1 Commit Small Macros and Core Logic
+
+Phase 3.7.1.1 Commit Slice Clusters
+Phase 3.7.1.1 Commit Slice Clusters | Checksum: 1c4db3c65
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21016 ; free virtual = 31973
+Phase 3.7.1 Commit Small Macros and Core Logic | Checksum: 1c4db3c65
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21016 ; free virtual = 31973
+
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns | Checksum: 1c4db3c65
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21016 ; free virtual = 31973
+
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 1c4db3c65
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21016 ; free virtual = 31973
+Phase 3.7 Small Shape Detail Placement | Checksum: 1c4db3c65
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21016 ; free virtual = 31973
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 16c5f02fb
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21015 ; free virtual = 31972
+Phase 3 Detail Placement | Checksum: 16c5f02fb
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21015 ; free virtual = 31971
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 callUpdateTimingBeforePCO
+Phase 4.1.1 callUpdateTimingBeforePCO | Checksum: 1aafbfcaa
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21018 ; free virtual = 31970
+
+Phase 4.1.2 updateClock Trees: PCOPT
+Phase 4.1.2 updateClock Trees: PCOPT | Checksum: 1aafbfcaa
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21066 ; free virtual = 32018
+
+Phase 4.1.3 Post Placement Optimization
+
+Phase 4.1.3.1 PCOPT Shape updates
+
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes | Checksum: 1aafbfcaa
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21074 ; free virtual = 32026
+
+Phase 4.1.3.1.2 deleteLutnmShapes
+
+Phase 4.1.3.1.2.1 deleteShapes
+Phase 4.1.3.1.2.1 deleteShapes | Checksum: 195650d0d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21074 ; free virtual = 32026
+Phase 4.1.3.1.2 deleteLutnmShapes | Checksum: 195650d0d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21074 ; free virtual = 32026
+Phase 4.1.3.1 PCOPT Shape updates | Checksum: 195650d0d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21066 ; free virtual = 32027
+
+Phase 4.1.3.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.021. For the most accurate timing information please run report_timing.
+Phase 4.1.3.2 Post Placement Timing Optimization | Checksum: 1bc60d79b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21074 ; free virtual = 32035
+Phase 4.1.3 Post Placement Optimization | Checksum: 1bc60d79b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:16 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21073 ; free virtual = 32035
+Phase 4.1 Post Commit Optimization | Checksum: 1bc60d79b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21070 ; free virtual = 32035
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 1bc60d79b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 1bc60d79b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 1bc60d79b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+Phase 4.4 Placer Reporting | Checksum: 1bc60d79b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 206d77796
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 206d77796
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+Ending Placer Task | Checksum: 1446f11fe
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+INFO: [Common 17-83] Releasing license: Implementation
+45 Infos, 9 Warnings, 8 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:33 . Memory (MB): peak = 2079.895 ; gain = 25.035 ; free physical = 21069 ; free virtual = 32035
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.54 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 21058 ; free virtual = 32027
+report_io: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 21057 ; free virtual = 32021
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 21056 ; free virtual = 32020
+report_control_sets: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 21060 ; free virtual = 32020
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2015.12' and will expire in -309 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS18 (FIXED_IO_mio[53], FIXED_IO_mio[52], FIXED_IO_mio[51], FIXED_IO_mio[50], FIXED_IO_mio[49], FIXED_IO_mio[48], FIXED_IO_mio[47], FIXED_IO_mio[46], FIXED_IO_mio[45], FIXED_IO_mio[44], FIXED_IO_mio[43], FIXED_IO_mio[42], FIXED_IO_mio[41], FIXED_IO_mio[40], FIXED_IO_mio[39] (the first 15 of 42 listed)); HSTL_I_18 (FIXED_IO_mio[27], FIXED_IO_mio[26], FIXED_IO_mio[25], FIXED_IO_mio[24], FIXED_IO_mio[23], FIXED_IO_mio[22], FIXED_IO_mio[21], FIXED_IO_mio[20], FIXED_IO_mio[19], FIXED_IO_mio[18], FIXED_IO_mio[17], FIXED_IO_mio[16]); 
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 93661db3 ConstDB: 0 ShapeSum: b108f44b RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 15ffea3df
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20910 ; free virtual = 31862
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 15ffea3df
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20910 ; free virtual = 31862
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 15ffea3df
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20907 ; free virtual = 31859
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 20ca605fd
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20906 ; free virtual = 31857
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.021  | TNS=0.000  | WHS=-0.700 | THS=-212.192|
+
+Phase 2 Router Initialization | Checksum: 261adfbf4
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20906 ; free virtual = 31857
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 181d4ea77
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20902 ; free virtual = 31853
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 932
+ Number of Nodes with overlaps = 59
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 27b5c4fce
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:13 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20903 ; free virtual = 31854
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.192  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1cd4f0944
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:13 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20903 ; free virtual = 31854
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 14d8358cc
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20903 ; free virtual = 31854
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.231  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 13d248e2c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20903 ; free virtual = 31854
+Phase 4 Rip-up And Reroute | Checksum: 13d248e2c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1795d15f7
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.384  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1795d15f7
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1795d15f7
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+Phase 5 Delay and Skew Optimization | Checksum: 1795d15f7
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 1a2afe5a3
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.384  | TNS=0.000  | WHS=0.026  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 1c26b5fc8
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 4.81025 %
+  Global Horizontal Routing Utilization  = 6.23185 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1776475f9
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:14 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1776475f9
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2161777ce
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.384  | TNS=0.000  | WHS=0.026  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 2161777ce
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+60 Infos, 10 Warnings, 8 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:25 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20901 ; free virtual = 31853
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.56 . Memory (MB): peak = 2079.895 ; gain = 0.000 ; free physical = 20878 ; free virtual = 31852
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.runs/impl_1/hdmi_vga_vision_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  4 18:55:42 2016...

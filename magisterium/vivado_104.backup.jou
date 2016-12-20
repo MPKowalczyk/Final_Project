@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun Oct 23 22:32:33 2016
+# Process ID: 104
+# Current directory: D:/OneDrive/mag/MSc_ZYBO/magisterium
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4836 D:\OneDrive\mag\MSc_ZYBO\magisterium\magisterium.xpr
+# Log file: D:/OneDrive/mag/MSc_ZYBO/magisterium/vivado.log
+# Journal file: D:/OneDrive/mag/MSc_ZYBO/magisterium\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.xpr
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sim_1/imports/magisterium/master.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/DDR_mem_tb.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg
+source bfm_tb.tcl
+run 30 ms
+run 30 ms
+save_wave_config {D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg}
+save_wave_config {D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sim_1/imports/magisterium/master.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/DDR_mem_tb.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg
+source bfm_tb.tcl
+run 30 ms
+set_property -dict [list CONFIG.B_Width {24} CONFIG.Out_Width {24} CONFIG.Latency {1} CONFIG.B_Value {000000000000000000000000}] [get_ips sum_17_20]
+generate_target all [get_files  D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/ip/sum_17_20/sum_17_20.xci]
+export_ip_user_files -of_objects [get_files D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/ip/sum_17_20/sum_17_20.xci] -no_script -force -quiet
+launch_run -jobs 4 sum_17_20_synth_1
+export_simulation -of_objects [get_files D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/ip/sum_17_20/sum_17_20.xci] -directory D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.ip_user_files/sim_scripts -force -quiet
+copy_ip -name sum_17_24 -dir D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/ip [get_ips  sum_17_20]
+update_compile_order -fileset sources_1
+remove_files -fileset sum_17_20 D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/ip/sum_17_20/sum_17_20.xci
+file delete -force D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.ip_user_files/ip/sum_17_20 D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.ip_user_files/sim_scripts/sum_17_20
+update_compile_order -fileset sources_1
+save_wave_config {D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg}
+close_sim
+generate_target Simulation [get_files d:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/ip/sum_17_24/sum_17_24.xci]
+export_ip_user_files -of_objects [get_files d:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sources_1/ip/sum_17_24/sum_17_24.xci] -no_script -force -quiet
+launch_simulation
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sim_1/imports/magisterium/master.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/DDR_mem_tb.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg
+source bfm_tb.tcl
+run 30 ms
+close_sim
+launch_simulation
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sim_1/imports/magisterium/master.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/DDR_mem_tb.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg
+source bfm_tb.tcl
+run 30 ms
+save_wave_config {D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/magisterium.srcs/sim_1/imports/magisterium/master.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/DDR_mem_tb.wcfg
+open_wave_config D:/OneDrive/mag/MSc_ZYBO/magisterium/bfm_tb_behav.wcfg
+source bfm_tb.tcl
+run 30 ms

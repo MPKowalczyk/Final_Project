@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Mar 24 10:27:03 2016
+# Process ID: 6068
+# Current directory: D:/zybo/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_4
+# Command line: vivado.exe -log hdmi_vga_vision_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source hdmi_vga_vision_wrapper.tcl
+# Log file: D:/zybo/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_4/hdmi_vga_vision_wrapper.vds
+# Journal file: D:/zybo/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_4\vivado.jou
+#-----------------------------------------------------------
+source hdmi_vga_vision_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/zybo/hdmi_vga_zybo/hdmi_library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+Command: synth_design -top hdmi_vga_vision_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2015.12' and will expire in -84 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.

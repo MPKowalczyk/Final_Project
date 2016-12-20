@@ -1,0 +1,2034 @@
+15:08:17 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:08:18 INFO  : XSDB server has started successfully.
+15:08:18 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+15:10:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:10:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+15:10:38 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_0/hdmi_vga_vision_wrapper.bit"
+15:11:18 INFO  : ps7_init is completed.
+15:11:18 INFO  : ps7_post_config is completed.
+15:11:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:12:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:14:41 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:15:01 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:15:02 INFO  : XSDB server has started successfully.
+15:15:05 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+15:15:06 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_0.
+15:27:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:29:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:40:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:41:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:45:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:20 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:25:51 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:25:53 INFO  : XSDB server has started successfully.
+16:25:53 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+16:27:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:27:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+16:27:45 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_0/hdmi_vga_vision_wrapper.bit"
+16:27:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:35:30 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:421)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:275)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:960)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:995)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:970)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1166)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:850)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:743)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:662)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.lang.NullPointerException
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+16:39:01 WARN  : Hardware Project 'hdmi_vga_vision_wrapper_hw_platform_0' referenced by launch configuration 'vtc.elf' doesn't exist in the workspace.
+16:39:56 INFO  : No changes in MSS file content so not generating sources.
+17:04:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:04:04 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '64' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:04:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:04:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:04:12 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:04:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:04:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:04:33 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:04:44 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:05:03 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:05:04 INFO  : XSDB server has started successfully.
+17:05:04 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:05:04 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+17:05:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:05:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:05:56 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:06:01 INFO  : ps7_init is completed.
+17:06:01 INFO  : ps7_post_config is completed.
+17:06:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:06:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:06:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:10:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:10:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:11:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:11:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:14:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:14:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:15:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:15:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:15:12 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:15:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:15:24 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:15:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:15:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:15:31 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:15:34 INFO  : ps7_init is completed.
+17:15:34 INFO  : ps7_post_config is completed.
+17:15:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:16:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:16:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:17:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:17:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:24:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:24:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:39:42 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:40:06 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:40:07 INFO  : XSDB server has started successfully.
+17:40:07 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:40:07 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+17:40:09 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478104715000,  Project:1478100328000
+17:40:09 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:40:09 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+17:40:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:40:13 INFO  : 
+17:40:14 INFO  : Updating hardware inferred compiler options for vdma.
+17:40:14 INFO  : Clearing existing target manager status.
+17:40:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:40:15 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:40:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:40:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:40:22 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:40:30 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:503)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:40:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:40:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:40:41 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:40:43 INFO  : ps7_init is completed.
+17:40:43 INFO  : ps7_post_config is completed.
+17:40:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:41:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:41:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:41:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:41:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:43:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:43:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:43:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:43:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:44:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:44:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:10:25 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:12:33 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:12:35 INFO  : XSDB server has started successfully.
+18:12:35 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+18:12:35 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+18:12:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478106603000,  Project:1478104715000
+18:12:36 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+18:12:36 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+18:12:39 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:12:40 INFO  : 
+18:12:41 INFO  : Updating hardware inferred compiler options for vdma.
+18:12:41 INFO  : Clearing existing target manager status.
+18:12:42 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:12:42 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:12:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:12:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:12:55 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:13:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:40:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:40:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:53:13 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:55:38 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:55:40 INFO  : XSDB server has started successfully.
+18:55:40 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+18:55:40 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+18:55:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478109184000,  Project:1478106603000
+18:55:41 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+18:55:41 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+18:55:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:55:46 INFO  : 
+18:55:47 INFO  : Updating hardware inferred compiler options for vdma.
+18:55:47 INFO  : Clearing existing target manager status.
+18:55:48 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:55:48 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:56:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:56:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:56:43 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:56:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:57:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:57:24 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:57:26 INFO  : ps7_init is completed.
+18:57:26 INFO  : ps7_post_config is completed.
+18:57:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:59:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:59:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:03:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:03:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:08:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:08:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:09:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:09:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:09:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:09:41 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:09:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:09:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:11:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:11:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:12:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:12:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:12:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:13:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:13:01 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:13:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:13:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:13:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:13:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:13:48 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:13:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:13:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:14:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:14:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:14:33 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:14:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:14:43 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:14:50 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:15:00 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:15:01 INFO  : XSDB server has started successfully.
+19:15:01 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+19:15:01 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+19:17:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:17:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:17:00 ERROR : Error occured during Prog B register check
+19:17:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:17:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:17:10 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:17:19 INFO  : ps7_init is completed.
+19:17:19 INFO  : ps7_post_config is completed.
+19:17:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:21:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:21:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:24:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:24:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:25:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:25:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:25:25 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:25:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:25:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:25:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:25:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:25:45 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:25:48 INFO  : ps7_init is completed.
+19:25:48 INFO  : ps7_post_config is completed.
+19:25:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:27:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:27:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:27:04 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:27:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:27:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:29:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:29:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:29:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:29:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:29:23 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:29:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:29:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:29:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:29:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:29:44 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:29:46 INFO  : ps7_init is completed.
+19:29:46 INFO  : ps7_post_config is completed.
+19:29:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:35:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:35:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:36:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:36:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:39:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:39:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:46:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:46:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:47:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:47:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:48:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:48:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:48:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:48:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:48:50 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:48:52 INFO  : ps7_init is completed.
+19:48:53 INFO  : ps7_post_config is completed.
+19:48:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:50:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:50:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:51:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:51:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:51:02 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:51:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:51:11 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:51:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:51:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:51:19 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:51:22 INFO  : ps7_init is completed.
+19:51:22 INFO  : ps7_post_config is completed.
+19:51:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:02:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:02:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:02:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:02:40 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:02:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:02:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:04:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:04:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:05:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:05:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:05:16 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:05:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:05:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:14:23 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:14:39 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+20:14:40 INFO  : XSDB server has started successfully.
+20:14:40 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+20:14:41 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+20:14:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478114020000,  Project:1478109184000
+20:14:42 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+20:14:42 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+20:14:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:14:46 INFO  : 
+20:14:47 INFO  : Updating hardware inferred compiler options for vdma.
+20:14:47 INFO  : Clearing existing target manager status.
+20:15:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:15:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:15:22 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:15:34 INFO  : ps7_init is completed.
+20:15:34 INFO  : ps7_post_config is completed.
+20:15:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:16:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:16:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:16:55 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:16:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:16:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:17:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:17:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:23:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:23:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:23:16 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:23:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:23:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:23:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:23:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:24:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:24:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:25:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:25:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:25:08 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:25:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:25:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:38:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:39:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:39:37 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:39:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:39:47 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:39:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:39:58 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:40:01 INFO  : ps7_init is completed.
+20:40:01 INFO  : ps7_post_config is completed.
+20:40:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:46:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:46:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:46:44 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:46:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:46:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:48:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:48:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:48:37 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:48:40 INFO  : ps7_init is completed.
+20:48:40 INFO  : ps7_post_config is completed.
+20:48:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:49:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:49:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:50:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:50:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:50:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:50:36 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:50:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:50:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:59:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:59:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:00:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+21:00:21 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+21:00:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:00:29 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:00:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+21:00:38 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+21:00:40 INFO  : ps7_init is completed.
+21:00:40 INFO  : ps7_post_config is completed.
+21:00:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:02:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:02:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:02:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:03:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:03:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:03:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:04:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:04:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:06:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:06:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:06:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:06:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:59:21 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:59:22 INFO  : XSDB server has started successfully.
+17:59:22 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:59:22 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+17:59:24 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478278660000,  Project:1478114020000
+17:59:24 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:59:25 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+17:59:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:59:29 INFO  : 
+17:59:30 INFO  : Updating hardware inferred compiler options for vdma.
+17:59:30 INFO  : Clearing existing target manager status.
+18:00:11 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:00:20 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:00:21 INFO  : XSDB server has started successfully.
+18:00:21 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+18:00:21 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+18:05:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:05:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:05:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:05:58 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:06:03 INFO  : ps7_init is completed.
+18:06:03 INFO  : ps7_post_config is completed.
+18:06:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:06:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:06:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:07:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:07:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:07:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:07:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:07:20 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:08:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:08:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:08:15 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:08:17 INFO  : ps7_init is completed.
+18:08:17 INFO  : ps7_post_config is completed.
+18:08:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:17:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:17:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:17:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:17:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:17:48 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:17:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:17:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:18:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:18:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:18:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:18:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:18:40 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:18:42 INFO  : ps7_init is completed.
+18:18:42 INFO  : ps7_post_config is completed.
+18:18:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:20:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:20:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:20:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:20:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:20:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:20:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:21:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:21:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:25:06 INFO  : ps7_init is completed.
+18:25:06 INFO  : ps7_post_config is completed.
+18:25:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:25:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:25:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:25:20 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:25:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:25:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:25:31 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+18:25:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:25:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:25:43 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:34:46 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:35:01 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:35:02 INFO  : XSDB server has started successfully.
+18:35:02 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+18:35:02 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+18:35:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:35:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:35:08 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:35:15 INFO  : ps7_init is completed.
+18:35:15 INFO  : ps7_post_config is completed.
+18:35:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:45:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:08:20 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:08:21 INFO  : XSDB server has started successfully.
+19:08:21 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+19:08:22 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+19:08:23 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478282876000,  Project:1478278660000
+19:08:23 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+19:08:23 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+19:08:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:08:28 INFO  : 
+19:08:28 INFO  : Updating hardware inferred compiler options for vdma.
+19:08:28 INFO  : Clearing existing target manager status.
+19:08:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:08:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:08:40 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:08:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:10:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:10:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:12:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:12:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:13:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:13:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:13:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:13:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:14:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:14:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:15:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:15:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:15:01 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:15:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:15:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:17:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:17:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:17:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:17:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:17:54 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:17:57 INFO  : ps7_init is completed.
+19:17:57 INFO  : ps7_post_config is completed.
+19:17:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:19:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:19:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:20:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:20:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:20:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:20:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:23:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:23:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:23:31 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:23:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:23:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:24:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:24:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:24:15 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:24:21 INFO  : ps7_init is completed.
+19:24:21 INFO  : ps7_post_config is completed.
+19:24:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:25:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:25:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:26:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:26:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:26:22 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:26:24 INFO  : ps7_init is completed.
+19:26:24 INFO  : ps7_post_config is completed.
+19:26:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:28:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:28:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:28:28 ERROR : ftdi_transfer_data_done failed: all fine
+19:28:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:28:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:28:35 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:28:37 INFO  : ps7_init is completed.
+19:28:37 INFO  : ps7_post_config is completed.
+19:28:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:28:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:28:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:36:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:36:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:37:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:37:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:37:45 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:37:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:37:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:39:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:39:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:39:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:39:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:39:35 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:39:40 INFO  : ps7_init is completed.
+19:39:40 INFO  : ps7_post_config is completed.
+19:39:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:39:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:39:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:48:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:48:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:48:43 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:48:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:48:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:48:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:48:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:48:58 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:49:01 INFO  : ps7_init is completed.
+19:49:01 INFO  : ps7_post_config is completed.
+19:49:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:49:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:49:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:51:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:51:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:51:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:51:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:51:34 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:51:37 INFO  : ps7_init is completed.
+19:51:37 INFO  : ps7_post_config is completed.
+19:51:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:54:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:54:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:54:43 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:54:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:54:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:55:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:55:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:55:36 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:55:39 INFO  : ps7_init is completed.
+19:55:39 INFO  : ps7_post_config is completed.
+19:55:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:59:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:59:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:00:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:00:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:10:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:10:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:10:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:18:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:18:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:49:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:49:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:02:22 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:02:37 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+21:02:38 INFO  : XSDB server has started successfully.
+21:02:38 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+21:02:39 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+21:02:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478289647000,  Project:1478282876000
+21:02:40 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+21:02:40 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+21:02:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:02:44 INFO  : 
+21:02:45 INFO  : Updating hardware inferred compiler options for vdma.
+21:02:45 INFO  : Clearing existing target manager status.
+21:02:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:02:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+21:02:56 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+21:03:01 INFO  : ps7_init is completed.
+21:03:01 INFO  : ps7_post_config is completed.
+21:03:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:03:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:03:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:03:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:06:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:06:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:03 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:53:04 INFO  : XSDB server has started successfully.
+15:53:04 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+15:53:04 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+15:57:33 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:57:34 INFO  : XSDB server has started successfully.
+15:57:34 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+15:57:34 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+15:58:02 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:58:03 INFO  : XSDB server has started successfully.
+15:58:03 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+15:58:03 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+16:07:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:07:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:07:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+16:08:00 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:08:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:08:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:08:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:08:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:14:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:14:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:14:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:14:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:18:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:18:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:21:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:21:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+16:21:17 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:21:22 INFO  : ps7_init is completed.
+16:21:22 INFO  : ps7_post_config is completed.
+16:21:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:26:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:26:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:27:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:27:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:35:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:35:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:42:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:42:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+16:42:07 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:42:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:42:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+16:42:52 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:42:55 INFO  : ps7_init is completed.
+16:42:55 INFO  : ps7_post_config is completed.
+16:42:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:44:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:44:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:44:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:44:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+16:44:22 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:44:26 INFO  : ps7_init is completed.
+16:44:26 INFO  : ps7_post_config is completed.
+16:44:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:50:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:50:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:26:59 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:27:25 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:27:26 INFO  : XSDB server has started successfully.
+17:27:26 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:27:27 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+17:27:28 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1478449234000,  Project:1478289647000
+17:27:28 INFO  : The hardware specification for project 'hdmi_vga_vision_wrapper_hw_platform_1' is different from /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:27:28 INFO  : Copied contents of /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf into /hdmi_vga_vision_wrapper_hw_platform_1/system.hdf.
+17:27:31 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:27:32 INFO  : 
+17:27:33 INFO  : Updating hardware inferred compiler options for vdma.
+17:27:33 INFO  : Clearing existing target manager status.
+17:30:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:30:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+17:30:44 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:30:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:42:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:42:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:44:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:44:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:46:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:46:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:47:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:47:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:54:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:54:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:57:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:57:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:59:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:59:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:05:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:05:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+18:05:19 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+18:05:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:05:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:54:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:54:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:10:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:10:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:15:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:15:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:22:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:22:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:24:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:24:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:30:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:30:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:54:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:54:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:55:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:55:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:55:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:55:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+19:55:40 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+19:55:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:55:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:56:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:56:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:56:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:56:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:59:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:59:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:00:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:00:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:01:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:01:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:01:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:02:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:03:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:03:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:04:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:04:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:06:39 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:580)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:10:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:10:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:10:13 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:10:46 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:10:51 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+20:10:52 INFO  : XSDB server has started successfully.
+20:10:52 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+20:10:53 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+20:12:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:12:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:12:05 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:12:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:12:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:12:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:13:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:13:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:14:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:14:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:15:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:15:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:15:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:15:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:16:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:16:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:17:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:21:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:21:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:28:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:28:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:36:56 INFO  : Processor reset is completed for ps7_cortexa9_1
+20:37:05 INFO  : ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:37:07 INFO  : Processor reset is completed for ps7_cortexa9_1
+20:37:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:50:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:50:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:57:26 INFO  : No changes in MSS file content so not generating sources.
+20:25:58 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+20:25:59 INFO  : XSDB server has started successfully.
+20:25:59 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+20:26:00 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+20:26:51 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+20:26:52 INFO  : XSDB server has started successfully.
+20:26:52 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+20:26:53 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+20:47:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:48:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+20:48:01 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+20:48:09 INFO  : ps7_init is completed.
+20:48:09 INFO  : ps7_post_config is completed.
+20:48:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:49:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:49:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:49:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:49:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:50:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:50:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:50:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:50:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:53:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:53:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:53:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:53:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:54:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:54:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:54:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:54:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:54:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:54:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:55:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:55:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:55:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:55:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:55:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:55:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:56:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:56:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:01:08 INFO  : Inferring section assignments and sizes from elf file: /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/vdma/Debug/vdma.elf
+21:02:15 INFO  : Successfully generated /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/vdma/src/lscript.ld.
+21:02:15 INFO  : Applying linker script to all configurations of project vdma.
+21:02:15 INFO  : Setting rebuild state to true for all configurations of project vdma.
+21:02:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:02:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:03:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:03:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:04:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:04:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:06:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:06:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:07:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:07:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:09:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:09:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:09:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:09:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:10:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:10:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:11:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:11:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:50:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:50:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:50:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:53:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:53:21 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:53:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:53:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+21:53:32 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+21:53:37 INFO  : ps7_init is completed.
+21:53:37 INFO  : ps7_post_config is completed.
+21:53:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:55:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:55:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:56:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:56:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:57:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:58:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:58:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+21:58:05 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:58:05 ERROR : Error occured during Prog B register check
+21:58:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:58:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+21:58:14 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+21:58:18 INFO  : ps7_init is completed.
+21:58:18 INFO  : ps7_post_config is completed.
+21:58:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:00:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:00:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:04:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:04:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:04:32 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+22:04:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+22:04:32 ERROR : Error occured during Prog B register check
+22:04:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:04:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+22:04:41 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+22:04:44 INFO  : ps7_init is completed.
+22:04:44 INFO  : ps7_post_config is completed.
+22:04:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:04:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:04:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:06:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:06:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:07:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:07:07 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+22:07:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:07:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+22:07:14 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+22:07:16 INFO  : ps7_init is completed.
+22:07:16 INFO  : ps7_post_config is completed.
+22:07:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:10:38 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+06:09:02 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+06:09:03 INFO  : XSDB server has started successfully.
+06:09:03 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+06:09:03 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+06:10:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:10:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+06:10:12 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+06:10:20 INFO  : ps7_init is completed.
+06:10:20 INFO  : ps7_post_config is completed.
+06:10:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:37:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:37:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:37:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:37:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+06:37:39 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+06:37:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:37:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:39:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:39:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:39:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:39:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:40:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:40:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:40:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:40:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:40:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:40:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:40:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:40:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:41:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:41:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:41:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:41:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:44:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:44:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:48:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:48:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:50:45 INFO  : Inferring section assignments and sizes from elf file: /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/vdma/Debug/vdma.elf
+06:51:07 INFO  : Successfully generated /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/vdma/src/lscript.ld.
+06:51:07 INFO  : Applying linker script to all configurations of project vdma.
+06:51:07 INFO  : Setting rebuild state to true for all configurations of project vdma.
+06:51:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:51:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:52:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:52:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:52:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:52:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+06:52:42 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+06:52:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:52:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:55:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:55:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:56:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:56:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:57:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:57:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:58:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:58:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:59:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:59:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:00:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:00:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:01:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:01:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:01:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:01:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:02:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:02:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+07:02:14 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+07:02:17 INFO  : ps7_init is completed.
+07:02:17 INFO  : ps7_post_config is completed.
+07:02:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:03:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:04:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:05:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:05:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:05:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:06:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:06:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:06:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:06:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:08:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:08:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:10:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:10:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:16:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:16:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:18:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:18:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:20:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:20:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:20:18 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:09:44 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+21:09:46 INFO  : XSDB server has started successfully.
+21:09:46 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+21:09:46 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+21:19:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:19:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655263A" && level==0} -index 1' command is executed.
+21:19:58 INFO  : FPGA configured successfully with bitstream "/home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+21:20:10 INFO  : ps7_init is completed.
+21:20:10 INFO  : ps7_post_config is completed.
+21:20:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:24:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:24:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:34:42 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:38:58 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+22:38:59 INFO  : XSDB server has started successfully.
+22:39:00 INFO  : Processing command line option -hwspec /home/tomasz/fpga_zynq/zybo/base_designs/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+22:39:00 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_1.
+12:31:28 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:31:30 INFO  : XSDB server has started successfully.
+12:31:31 INFO  : Processing command line option -hwspec G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+12:46:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:46:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786556A" && level==0} -index 1' command is executed.
+12:46:29 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+12:46:47 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:46:57 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:47:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:47:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786556A" && level==0} -index 1' command is executed.
+12:47:16 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+12:47:22 INFO  : ps7_init is completed.
+12:47:22 INFO  : ps7_post_config is completed.
+12:47:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:48:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:48:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:51:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:51:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:15:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:35:27 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:35:29 INFO  : XSDB server has started successfully.
+16:35:30 INFO  : Processing command line option -hwspec G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+16:35:31 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_0.
+16:36:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:36:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:36:50 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:43:13 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:43:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:43:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:43:28 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:43:31 INFO  : ps7_init is completed.
+16:43:31 INFO  : ps7_post_config is completed.
+16:43:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:44:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:44:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:45:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:45:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:45:12 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:45:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:45:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:45:34 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:45:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:45:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:45:59 ERROR : Error occured during Prog B register check
+16:46:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:46:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:46:10 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:46:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:47:00 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:47:02 INFO  : XSDB server has started successfully.
+16:47:02 INFO  : Processing command line option -hwspec G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+16:47:08 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_0.
+16:47:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:47:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:47:14 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:47:26 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:47:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:47:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:47:43 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:47:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:48:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:48:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:48:28 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:48:31 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:48:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:48:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:48:47 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:48:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:49:04 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:49:57 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:49:59 INFO  : XSDB server has started successfully.
+16:49:59 INFO  : Processing command line option -hwspec G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+16:50:00 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_0.
+16:50:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:50:20 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:50:28 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:50:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:50:50 INFO  : FPGA configured successfully with bitstream "G:/aaa/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:50:57 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:51:12 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:701)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:51:33 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:54:15 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:54:17 INFO  : XSDB server has started successfully.
+16:54:18 INFO  : Processing command line option -hwspec D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+16:54:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:54:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:54:41 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:55:04 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:55:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:55:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786410A" && level==0} -index 1' command is executed.
+16:55:45 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+16:55:52 INFO  : ps7_init is completed.
+16:55:52 INFO  : ps7_post_config is completed.
+16:55:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:57:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:57:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:58:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:58:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:59:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:59:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:00:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:00:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:01:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:01:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:02:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:02:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:04:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:04:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:07:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:07:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:07:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:07:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:45:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:46:07 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:46:09 INFO  : XSDB server has started successfully.
+13:46:10 INFO  : Processing command line option -hwspec D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+13:46:10 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_2.
+13:46:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:46:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279787950A" && level==0} -index 1' command is executed.
+13:46:25 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+13:46:37 INFO  : ps7_init is completed.
+13:46:37 INFO  : ps7_post_config is completed.
+13:46:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:48:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:14:58 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:15:00 INFO  : XSDB server has started successfully.
+17:15:02 INFO  : Processing command line option -hwspec D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:15:02 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_2.
+17:16:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:16:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786018A" && level==0} -index 1' command is executed.
+17:16:27 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:16:44 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:16:51 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:16:56 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:17:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:17:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:17:47 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:17:49 INFO  : XSDB server has started successfully.
+17:17:50 INFO  : Processing command line option -hwspec D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:17:50 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_2.
+17:18:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:18:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786018A" && level==0} -index 1' command is executed.
+17:18:14 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:18:25 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:18:36 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:19:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:19:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786018A" && level==0} -index 1' command is executed.
+17:19:03 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:19:10 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:19:18 INFO  : ps7_init is completed.
+17:19:19 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:19:19 INFO  : ps7_post_config is completed.
+17:19:19 WARN  : Error clearing Zynq reset status. Unknown Error Occured
+    Target '64' Does NOT exist in the Current System
+
+
+17:19:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:23:04 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:23:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:23:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786018A" && level==0} -index 1' command is executed.
+17:23:18 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:23:21 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:23:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:23:41 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(TM.java:764)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(CPURunSession.java:27)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminateCurrentLaunch(TM.java:821)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:596)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:23:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:24:18 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:24:20 INFO  : XSDB server has started successfully.
+17:24:20 INFO  : Processing command line option -hwspec D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+17:24:21 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_2.
+17:24:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786018A" && level==0} -index 1' command is executed.
+17:24:49 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+17:25:01 INFO  : ps7_init is completed.
+17:25:01 INFO  : ps7_post_config is completed.
+17:25:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:25:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:25:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:38:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:55:47 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:55:49 INFO  : XSDB server has started successfully.
+12:55:50 INFO  : Processing command line option -hwspec D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper.hdf.
+12:55:50 INFO  : Checking for hwspec changes in the project hdmi_vga_vision_wrapper_hw_platform_2.
+13:15:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:15:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786022A" && level==0} -index 1' command is executed.
+13:15:08 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+13:15:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:15:29 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:15:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:15:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786022A" && level==0} -index 1' command is executed.
+13:15:43 INFO  : FPGA configured successfully with bitstream "D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+13:15:47 INFO  : ps7_init is completed.
+13:15:47 INFO  : ps7_post_config is completed.
+13:15:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:16:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:16:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:18:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:18:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:19:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:19:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:26:13 INFO  : Registering command handlers for SDK TCF services
+14:26:15 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Marcin\VERILOG\test_rozmiar\hdmi_zybo_vga_axis_ps_vdma\hdmi_vga_zybo.sdk\temp_xsdb_launch_script.tcl
+14:26:29 INFO  : XSCT server has started successfully.
+14:26:53 INFO  : Successfully done setting XSCT server connection channel  
+14:26:53 INFO  : Successfully done setting SDK workspace  
+14:33:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:33:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786022A" && level==0} -index 1' command is executed.
+14:33:52 INFO  : FPGA configured successfully with bitstream "C:/Users/Marcin/VERILOG/test_rozmiar/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+14:35:07 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:35:24 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:35:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:53:36 INFO  : Registering command handlers for SDK TCF services
+14:53:37 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Marcin\VERILOG\test_rozmiar\hdmi_zybo_vga_axis_ps_vdma\hdmi_vga_zybo.sdk\temp_xsdb_launch_script.tcl
+14:53:40 INFO  : XSCT server has started successfully.
+14:53:41 INFO  : Successfully done setting XSCT server connection channel  
+14:53:41 INFO  : Successfully done setting SDK workspace  
+14:54:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786022A" && level==0} -index 1' command is executed.
+14:54:45 INFO  : FPGA configured successfully with bitstream "C:/Users/Marcin/VERILOG/test_rozmiar/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+14:55:18 INFO  : ps7_init is completed.
+14:55:18 INFO  : ps7_post_config is completed.
+14:55:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:57:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:57:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:58:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:59:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:59:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:59:16 ERROR : Port COM3 is already in use.
+14:59:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:59:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:59:50 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:951)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+15:03:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:03:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279786022A" && level==0} -index 1' command is executed.
+15:03:16 INFO  : FPGA configured successfully with bitstream "C:/Users/Marcin/VERILOG/test_rozmiar/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/hdmi_vga_vision_wrapper_hw_platform_1/hdmi_vga_vision_wrapper.bit"
+15:03:34 INFO  : ps7_init is completed.
+15:03:34 INFO  : ps7_post_config is completed.
+15:03:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:03:34 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:951)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+15:08:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

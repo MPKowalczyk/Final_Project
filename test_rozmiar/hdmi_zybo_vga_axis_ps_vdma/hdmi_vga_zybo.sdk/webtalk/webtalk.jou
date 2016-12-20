@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Wed Nov 30 13:45:27 2016
+# Process ID: 9188
+# Current directory: D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/webtalk/webtalk.log
+# Journal file: D:/hdmi_zybo_vga_axis_ps_vdma/hdmi_vga_zybo.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

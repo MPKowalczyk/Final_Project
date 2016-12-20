@@ -1,0 +1,91 @@
+/*
+ * fg_sementation.cc
+ *
+ *  Created on: 6 Nov 2016
+ *      Author: tomasz
+ */
+#include "fg_sementation.h"
+#include "stdlib.h"
+
+float bgModel[VSIZE_ACTIVE*HSIZE_ACTIVE*3];
+
+
+void simple_image_processing(u8 *image,int &bbox_xs,int &bbox_xe,int &bbox_ys,int &bbox_ye, int &m00) {
+
+	int j=0; // licznik wierszy
+	int i=0; // licznik kolumn
+	int R,G,B;
+
+	bbox_xs =HSIZE_ACTIVE ;
+	bbox_xe =0;
+	bbox_ys =VSIZE_ACTIVE;
+	bbox_ye =0;
+	m00=0;
+
+
+	for (int k=0; k < HSIZE_ACTIVE*VSIZE_ACTIVE*3; k+=3) {
+
+		// Pobaranie rgb
+		B = image[k];
+		G = image[k+1];
+		R = image[k+2];
+
+		if ( R < TH && G < TH && B < TH) {
+			if (i < bbox_xs)
+				bbox_xs = i;
+			if ( i > bbox_xe)
+				bbox_xe = i;
+			if (j < bbox_ys)
+				bbox_ys = i;
+			if ( j > bbox_ye)
+				bbox_ye = i;
+			m00++;
+		}
+
+		i++;
+		if (i==HSIZE_ACTIVE) {
+			i=0;
+			j++;
+		}
+
+	}
+}
+
+
+simpleBG::simpleBG() {
+	alpha = 0.05;
+	alpha1= 1-alpha;
+}
+
+simpleBG::~simpleBG() {
+
+}
+
+void simpleBG::initBG(u8 *image) {
+
+	for (int k=0; k < HSIZE_ACTIVE*VSIZE_ACTIVE*3; k++)
+			bgModel[k]= (float)(image[k]);
+}
+
+
+void simpleBG::step(u8 *image, int &m00) {
+
+	m00 = 0;
+	for (int k=0; k < HSIZE_ACTIVE*VSIZE_ACTIVE*3; k+=3) {
+		// FG detection
+		//float dist = abs((float)image[k]-bgModel[k])+abs((float)image[k+1]-bgModel[k+1])+abs((float)image[k+1]-bgModel[k+1]);
+		//if (dist > 30)
+		//	m00++;
+
+		// BG Update
+		//bgModel[k] = (float)image[k]*alpha + bgModel[k]*alpha1;
+		//bgModel[k+1] = (float)image[k+1]*alpha + bgModel[k+1]*alpha1;
+		//bgModel[k+2] = (float)image[k+2]*alpha + bgModel[k+2]*alpha1;
+
+
+	}
+
+}
+
+
+
