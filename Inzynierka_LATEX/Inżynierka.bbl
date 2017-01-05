@@ -241,5 +241,55 @@
     }
     \field{year}{2015}
   \endentry
+
+  \entry{Kryjak}{book}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Komorkiewicz},
+         familyi={K\bibinitperiod},
+         given={Mateusz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kryjak},
+         familyi={K\bibinitperiod},
+         given={Tomasz},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wydawnictwo AGH}%
+    }
+    \strng{namehash}{KMKT1}
+    \strng{fullhash}{KMKT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Projektowanie struktury układów FPGA. Skrypt do ćwiczeń
+  laboratoryjnych.}
+    \list{location}{1}{%
+      {Kraków}%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{Benda}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Benda},
+         familyi={B\bibinitperiod},
+         given={Lukas},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Hardware Acceleration for Image Processing}
+    \list{location}{1}{%
+      {EPFL, I\&C, BIRG}%
+    }
+    \field{year}{2008}
+  \endentry
 \endsortlist
 \endinput

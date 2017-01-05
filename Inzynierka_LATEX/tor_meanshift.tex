@@ -19,7 +19,7 @@ Najpierw sprawdzono działanie zaimplementowanego systemu podając na wejście H
 Następnie na wejście HDMI podano obraz z kamery używanej w projekcie. Śledzono zielony prostokątny element. Problemem okazał się wspomniany brak dobrego rozróżnienia obiektu od tła. Zmiana położenia obiektu, a w efekcie zmiana oświetlenia powodowała zmianę śledzonego obiektu na element otoczenia.
 
 \paragraph*{}
-Aby zwiększyć efektywność testowanego algorytmu zmieniono sposób wyznaczania obrazu w skali szarości. Zamiast obliczania składowej Y przestrzeni YUV do modułu śledzącego podano składową H przestrzeni barw HSV. Odpowiada ona za kolor obiektu, więc powinna dać lepsze wyniki gdy obiekt ma inny kolor niż otoczenie.
+Aby zwiększyć efektywność testowanego algorytmu zmieniono sposób wyznaczania obrazu w skali szarości. Zamiast obliczania składowej Y przestrzeni YUV do modułu śledzącego podano składową H przestrzeni barw HSV. Odpowiada ona za kolor obiektu, więc powinna dać lepsze wyniki gdy obiekt ma inny kolor niż otoczenie \cite{Kryjak}.
 \begin{equation}
 V=max(R,G,B)
 \end{equation}

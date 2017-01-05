@@ -38,3 +38,4 @@
 \contentsline {section}{\numberline {6.2}Projekt regulatora}{33}
 \contentsline {chapter}{\numberline {7}Tor wizyjny z algorytmem Mean-shift}{35}
 \contentsline {chapter}{\numberline {8}Implementacja algorytmu KLT}{37}
+\contentsline {chapter}{\numberline {9}Podsumowanie}{41}
