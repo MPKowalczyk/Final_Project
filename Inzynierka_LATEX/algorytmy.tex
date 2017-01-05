@@ -6,18 +6,18 @@ W rozdziale tym omówione zostaną algorytmy śledzenia. Rozważymy również mo
 \section{Śledzenie przez detekcję}
 \label{sec:sledzenieprzezdetekcje}
 
-Jest to najłatwiejszy możliwy algorytm śledzenia. Polega on na detekcji obiektu i określeniu jego położenia (np. poprzez wyznaczenie środka ciężkości). Algorytm ten jest efektywny tylko, gdy w kadrze znajduje się maksymalnie jeden wyznaczony obiekt. Ograniczenie to możemy obejść przez zastosowanie dodatkowo algorytmu indeksacji. Wtedy musimy zdecydować który z wyznaczonych obiektów jest tym właściwym. Możemy np. śledzić element znajdujący się najbliżej (mający największą powierzchnię w kadrze). Efektywność implementacji programowo-sprzętowej zależy w większości od wykorzystanego algorytmu detekcji, i/lub segmentacji. Algorytm detekcji na podstawie koloru będzie łatwy i szybki do zaimplementowania,a algorytm bazujący na współczynnikach kształtu  wymagać będzie dużo więcej pracy i zasobów.
+Jest to najłatwiejszy możliwy algorytm śledzenia. Polega on na detekcji obiektu i określeniu jego położenia (np. poprzez wyznaczenie środka ciężkości). Algorytm ten jest efektywny tylko, gdy w kadrze znajduje się maksymalnie jeden wyznaczony obiekt. Ograniczenie to możemy obejść przez zastosowanie dodatkowo algorytmu indeksacji. Wtedy musimy zdecydować który z wyznaczonych obiektów jest tym właściwym. Możemy np. śledzić element znajdujący się najbliżej (mający największą powierzchnię w kadrze). Efektywność implementacji programowo-sprzętowej zależy w większości od wykorzystanego algorytmu detekcji, i/lub segmentacji. Algorytm detekcji na podstawie koloru będzie łatwy i szybki do zaimplementowania, a algorytm bazujący na współczynnikach kształtu  wymagać będzie dużo więcej pracy i zasobów.
 
 \section{Mean-shift}
 \label{sec:meanshift}
 
-Algorytm ten bazuje na statystycznej metodzie poszukiwania lokalnego maksimum rozkładu prawdopodobieństwa. Polega on na wyznaczeniu maksymalnej wartości prawdopodobieństwa w aktualnym oknie wokół punktu startowego. W celu zastosowania tego algorytmu do śledzenia obiektu należy przedstawić obraz jako rozkład prawdopodobieństwa. W tym celu każdemu pikselowi przypisuje się wartość prawdopodobieństwa. Można to zrobić np. na podstawie koloru, przypisując kolorom wartość prawdopodobieństwa, lub histogramu, porównując histogram otoczenia piksela z histogramem obiektu \cite{CMS}. Jeśli prawdopodobieństwo obliczone zostaje tylko na podstawie koloru, dobre wyniki możemy uzyskać, gdy:
+Algorytm ten bazuje na statystycznej metodzie poszukiwania lokalnego maksimum rozkładu prawdopodobieństwa. Polega on na wyznaczeniu maksymalnej wartości prawdopodobieństwa w aktualnym oknie wokół punktu startowego. W celu zastosowania tego algorytmu do śledzenia obiektu należy przedstawić obraz jako rozkład prawdopodobieństwa. W tym celu każdemu pikselowi przypisuje się wartość prawdopodobieństwa. Można to zrobić np. na podstawie koloru, przypisując kolorom wartość prawdopodobieństwa, lub histogramu, porównując histogram otoczenia piksela z histogramem obiektu \cite{CMS}. Jeśli prawdopodobieństwo obliczone zostaje tylko na podstawie koloru, dobre wyniki można uzyskać, gdy \cite{CMS}:
 \begin{itemize}
 \item Obiekt ma jednolitą barwę.
 \item Występują bardzo małe zmiany oświetlenia.
 \item W kadrze nie ma obiektów podobnych do śledzonego.
 \item Kolor tła znacznie różni się od koloru obiektu.
-\item Obiekt nie może zostać całkowicie zasłonięty.
+\item Obiekt nie zostaje całkowicie zasłonięty.
 \end{itemize}
 \paragraph*{}
 Algorytm ten ma następujący przebieg:
@@ -29,7 +29,7 @@ Algorytm ten ma następujący przebieg:
 \item Powtarzaj kroki 3 i 4, aż algorytm będzie zbieżny.
 \end{enumerate}
 \paragraph*{}
-Punktem startowym dla każdego kolejnego obrazu z kamery jest pozycja obiektu w poprzednim obrazie. Poszukiwanie maksymalnej wartości wartości prawdopodobieństwa odbywa się w następujący sposób:
+Punktem startowym dla każdego kolejnego obrazu z kamery jest pozycja obiektu w poprzednim obrazie. Poszukiwanie maksymalnej wartości prawdopodobieństwa odbywa się w następujący sposób:
 \begin{itemize}
 \item Obliczamy moment zerowy.
 \begin{equation}
@@ -67,6 +67,63 @@ Gdzie \(l(x,y)\) jest wartością prawdopodobieństwa dla piksela \((x,y)\)\cite
 
 \section{Filtr cząsteczkowy}
 \label{sec:filtrczasteczkowy}
+
+Filtr cząsteczkowy inaczej nazywany jest sekwencyjną metodą Monte Carlo. Punktem startowym algorytmów tego typu jest model obiektu w postaci równań stanu \cite{Mukhtar}:
+\begin{equation}
+\label{eq:PF_state}
+x_k=Ax_{k-1}+Bu_k+w_{k-1}
+\end{equation}
+\begin{equation}
+y_k=Cx_k+v_k
+\end{equation}
+\(x_k\) jest ukrytym, prawdziwym stanem obiektu.\newline
+\(y_k\) jest obserwowanym stanem obiektu.\newline
+\(w_{k-1}\) jest zmienną losową o rozkładzie normalnym reprezentującą szum przetwarzania.\newline
+\(v_k\) jest zmienną losową o rozkładzie normalnym reprezentującą szum pomiarowy.\newline
+%Jeśli obiekt porusza się ze stałą prędkością, przyjąć należy następujące macierze \(A\) i \(B\):
+%\begin{equation}
+%A=2 \cdot I
+%\end{equation}
+%\begin{equation}
+%B=-I
+%\end{equation}
+
+\paragraph*{}
+Algorytm korzysta z wyprowadzonej z twierdzenia Bayesa rekurencyjnej zależności:
+\begin{equation}
+p(x_{k+1}|y_{0:k+1}) \propto p(y_{k+1}|x_{k+1}) \int\limits_{x_k} p(x_{k+1}|x_k)p(x_k|y_{0:k})dx_k
+\end{equation}
+\(x_{0:k}\) oznacza wektor \((x_0,\dots,x_k)\).
+Powyższy wzór opisuje rozkład prawdopodobieństwa, zmiennej \(x_{k+1}\), pod warunkiem, że znane są dotychczasowe pomiary \(y_{0:k+1}\). Wartość oczekiwana tego rozkład przyjmowana jest jako wynik zadania śledzenia. W opisywanym algorytmie równanie to rozwiązywane jest metodą Monte Carlo, która skomplikowane problemy przybliża za pomocą zbioru losowo rozmieszczonych cząstek. W omawianym przypadku przybliżaną wielkością jest prawdopodobieństwo \(p(x_{k+1}|y_{0:k+1})\). Cząsteczki reprezentują możliwe położenia śledzonego obiektu \cite{Meresinski}.
+
+\paragraph*{}
+Następnie należy każdej cząsteczce przypisać wagę, która reprezentuje prawdopodobieństwo \(p(y_{k+1}|x_{k+1})\). Może być określona np. w następujący sposób \cite{Meresinski}:
+\begin{equation}
+w_i=ke^{-\Lambda D^2}
+\end{equation}
+\(k\) jest stałą normalizującą sumę wag.
+\(\Lambda\) jest parametrem algorytmu.
+\(D\) jest dystansem.
+
+Najczęściej stosownym dystansem jest podobieństwo histogramu cząsteczki z histogramem bazowym obiektu. Pozycja obiektu wyznaczana jest następująco:
+\begin{equation}
+\label{eq:PF_polozenie}
+x_{k+1}=\sum\limits_{i=1}^{M} w_{i,k+1} \cdot x_{i,k+1}
+\end{equation}
+
+Ostatnim etapem jest powielenie cząstek. Losowanych jest M cząstek z prawdopodobieństwem określonym przez wyliczone wagi (cząstka może być wylosowana więcej niż jeden raz). Następnie są one rozrzucane zgodnie z równaniem \ref{eq:PF_state}. Jest to etap predykcji. W wyniku tego działania większość cząstek znowu znajduje się w otoczeniu śledzonego obiektu.
+
+\paragraph*{}
+Algorytm ma następujący przebieg \cite{Meresinski}:
+\begin{enumerate}
+\item Wyznaczenie histogramu śledzonego obiektu.
+\item Rozmieszczenie cząstek wokół początkowego położenia obiektu zgodnie z wybranym rozkładem (najczęściej normalnym).
+\item Etap przewidywania. Przesunięcie cząstek zgodnie z równaniami stanu \ref{eq:PF_state}.
+\item Obliczenie histogramu w otoczeniu każdej cząstki.
+\item Obliczenie wagi każdej cząstki.
+\item Obliczenie najbardziej prawdopodobnego położenia obiektu zgodnie z równaniem \ref{eq:PF_polozenie}.
+\item Powielenie cząstek.
+\end{enumerate}
 
 \section{KLT}
 \label{sec:klt}
@@ -130,3 +187,8 @@ Algorytm ma następujący przebieg \cite{KK}:
 \item Zaktualizuj parametr \(p \leftarrow p+\Delta p\).
 \item Powtarzaj kroki od 2 do 7 do czasu, gdy algorytm będzie zbiegał do punktu.
 \end{enumerate}
+
+\section{Wybór implementowanego algorytmu}
+\label{sec:wyborimplementowanegoalgorytmu}
+
+Dokonując wyboru algorytmu do implementacji w sprzęcie bazowano na gotowych implementacjach w programie \textit{MATLAB}. Algorytmy uruchamiano dla zarejestrowanych sekwencji testowych, takich jak nagrania poruszającego się drona. Warto zwrócić uwagę na fakt, że sekwencje te nagrywane były na jednolitym tle, co zwiększało skuteczność rozwiązań. Stwierdzono, że z zadaniem najlepiej poradził sobie algorytm KLT. Oprócz tego postanowiono zaimplementować prosty algorytm śledzenia przez detekcję do celów testowych.  Z użyciem tego algorytmu badano pozycjonowanie serwomechanizmów w trakcie testowania i doboru nastaw regulatora. Został również przetestowany gotowy algorytm Mean-shift, aby sprawdzić jego działanie w platformie sprzętowej oraz ocenić działanie posiadanej implementacji.

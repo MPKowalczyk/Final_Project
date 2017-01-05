@@ -13,12 +13,12 @@
 \usepackage{polski}
 
 \usepackage[utf8]{inputenc}
-
+	
 \newcommand*{\captionsource}[2]{%
   \caption[{#1}]{%
     #1%
     \\\hspace{\linewidth}%
-    \textbf{Żródło:} #2%
+    \textbf{Źródło:} #2%
   }%
 }
 
@@ -30,6 +30,7 @@
 \usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{float}
+\usepackage{epstopdf}
 
 \numberwithin{equation}{section}
 
@@ -174,7 +175,10 @@ backend=bibtex
 \include{algorytmy}
 \include{stanowisko}
 \include{komunikacja}
-
+\include{tor}
+\include{regulator}
+\include{tor_meanshift}
+\include{implementacja_KLT}
 
 % itd.
 % \appendix

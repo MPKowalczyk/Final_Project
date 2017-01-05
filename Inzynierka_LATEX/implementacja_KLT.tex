@@ -1,0 +1,22 @@
+\chapter{Implementacja algorytmu KLT}
+\label{cha:implementacjaalgorytmuklt}
+
+Jak opisywano w sekcji \ref{sec:wyborimplementowanegoalgorytmu} najlepiej z zadaniem śledzenia w modelu programowym poradził sobie algorytm KLT. W związku z tym postanowiono przeprowadzić próbę jego implementacji w układzie Zynq. Należy zauważyć, że celem autora było zaimplementowanie jak największej części algorytmu w logice rekonfigurowalnej, aby zmniejszyć ilość obliczeń potrzebnych do wykonania w procesorze oraz jak najwięcej z nich wykonywać równolegle. W efekcie system ma działać szybko, wymagać małej ilości energii oraz będzie go można łatwo rozbudować lub zmienić zamieniając tylko odpowiednie moduły w diagramie blokowym programu \textit{Vivado}.
+
+\paragraph*{}
+Metoda śledzenia KLT działa na obrazie w skali szarości. Konwersję przeprowadzamy tak jak dla metody Mean-shift, z użyciem wzoru \ref{eq:grayscale}. Zgodnie z przebiegiem algorytmu przestawionym w sekcji \ref{sec:klt}, działanie algorytmu rozpoczyna się od wyboru punktów charakterystycznych spełniających warunek na wartości własne hesjanu. Aby to zrobić najpierw musimy wyliczyć gradient obrazu wyjściowego. Jest on obliczany jako konwolucja dwuwymiarowa obrazu wyjściowego z następującymi maskami:
+\begin{equation}
+M_x=
+	\begin{bmatrix}
+	-1 & 0 & 1
+	\end{bmatrix}
+\end{equation}
+\begin{equation}
+M_y=
+	\begin{bmatrix}
+	-1 \\
+	0 \\
+	1
+	\end{bmatrix}
+\end{equation}
+Wyniki powyższych splotów są następnie podnoszone do kwadratów i mnożone przez siebie. W wyniku otrzymuje się macierz hesjanu dla aktualnego piksela. Zdecydowano, że powyższe wartości będą wyliczane dla całego obrazu w sposób potokowy. Aby to zrealizować należy zaimplementować linię opóźniającą piksele z użyciem pamięci BRAM, gdyż do wykonania powyższych działań potrzebujemy wartości pikseli z wcześniejszych linii obrazu wejściowego. Należy również wyznaczyć latencję użytych elementów, by opóźnić sygnały synchronizacyjne o odpowiednią liczbę taktów zegara. 

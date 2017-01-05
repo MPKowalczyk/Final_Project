@@ -4,7 +4,7 @@
 \section{Cel pracy}
 \label{sec:celpracy}
 
-Celem pracy jest stworzenie demonstratora systemu wizyjnego do śledzenia obiektów, przy czym zakłada się, że kamera zamontowana jest na głowicy obrotowej. Praca inżynierska obejmuje skompletowanie, we współpracy z opiekunem, stanowiska testowego składającego się z głowicy ruchomej, kamery, platformy obliczeniowej oraz wskaźnika. Należy przeprowadzić analizę oraz weryfikację różnych koncepcji śledzenia, biorąc pod uwagę skuteczność oraz możliwość implementacji sprzętowej lub sprzętowo-programowej. Wybrane rozwiązanie zostało zaimplementowane, uruchomione i przetestowane w sprzęcie. Wyjście z modułu śledzenia stanowi podstawę do wypracowania pozycjonowania głowicy obrotowej, takiego, aby utrzymać obiekt w środku kadru oraz oznaczyć go wskaźnikiem.
+Celem pracy jest stworzenie demonstratora systemu wizyjnego do śledzenia obiektów, przy czym zakłada się, że kamera zamontowana jest na głowicy obrotowej. Praca inżynierska obejmuje skompletowanie, we współpracy z opiekunem, stanowiska testowego składającego się z głowicy ruchomej, kamery, platformy obliczeniowej oraz wskaźnika. Należy przeprowadzić analizę oraz weryfikację różnych koncepcji śledzenia, biorąc pod uwagę skuteczność oraz możliwość implementacji sprzętowej lub sprzętowo-programowej. Wybrane rozwiązanie zostanie zaimplementowane, uruchomione i przetestowane w sprzęcie. Wyjście z modułu śledzenia stanowi podstawę do wypracowania pozycjonowania głowicy obrotowej, takiego, aby utrzymać obiekt w środku kadru oraz oznaczyć go wskaźnikiem.
 
 \section{Wprowadzenie}
 \label{sec:wprowadzenie}
@@ -13,12 +13,31 @@ Automatyczne śledzenie z pomocą kamery jest wykorzystywane m.in. w zagadnienia
 \begin{itemize}
 \item{Śledzenie przez detekcję}
 \item{Mean-shift}
-\item{Filtr cząsteczkowy}
+%\item{Filtr cząsteczkowy}
 \item{KLT}
 \end{itemize}
 Algorytmy te zostaną dokładniej omówione w kolejnym rozdziale pracy.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=4in]{scheme_pol.jpg}
+	\captionsource{Schemat realizowanego rozwiązania.}{Własne}
+\end{figure}
+
 \section{Zawartość pracy}
 \label{sec:zawartoscpracy}
 
-W rozdziale \dots
+\subsection{Rozdział 2}
+Zrealizowano przegląd algorytmów śledzenia i dokonano wyboru algorytmu do implementacji w sprzęcie.
+
+\subsection{Rozdział 3}
+Opisano skompletowane stanowisko. Przedstawiono specyfikację użytych elementów oraz uzasadniono ich wybór.
+
+\subsection{Rozdział 4}
+Scharakteryzowano komunikację pomiędzy elementami realizowanego systemu (PC-Zynq-Maestro).
+
+\subsection{Rozdział 5}
+Przedstawiono realizację podstawowego toru wizyjnego otrzymującego obraz z kamery i wysyłającego go bez zmian na wyjście.
+
+\subsection{Rozdział 6}
+Opisano model matematyczny sterowanego obiektu oraz projekt implementowanego regulatora. Krótko omówiono wynik testu regulatora na modelu.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.24)  20 NOV 2016 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.24)  4 JAN 2017 21:13
 entering extended mode
 **./In≈ºynierka.tex
 (In≈ºynierka.tex
@@ -1003,9 +1003,18 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks34
 \@floatcapt=\box54
 )
-(C:\Users\Marcin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
-Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
+("C:\Moje Programy\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
+("C:\Moje Programy\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Moje Programy\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Moje Programy\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
 ("C:\Moje Programy\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1014,6 +1023,16 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+))
+(C:\Users\Marcin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
+
 (C:\Users\Marcin\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count161
@@ -1355,7 +1374,7 @@ File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'urldate=edtf' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 155.
+(biblatex)                Setting 'seconds=true' on input line 156.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1366,23 +1385,28 @@ LaTeX Warning: Unused global option(s):
     [11pt].
 
 (In≈ºynierka.aux (wstep.aux) (algorytmy.aux) (stanowisko.aux) (komunikacja.aux)
-)
+(tor.aux
+
+LaTeX Warning: Label `sec:sledzenieprzezdetekcje' multiply defined.
+
+) (regulator.aux) (tor_meanshift.aux) (implementacja_KLT.aux))
 \openout1 = `In≈ºynierka.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 155.
- ("C:\Moje Programy\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 156.
+
+("C:\Moje Programy\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (C:\Users\Marcin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
@@ -1398,21 +1422,6 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \MPnumerator=\count373
 \makeMPintoPDFobject=\count374
 \everyMPtoPDFconversion=\toks40
-) ("C:\Moje Programy\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Moje Programy\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Moje Programy\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1546,16 +1555,16 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'In≈ºynierka.bbl' found.
  (In≈ºynierka.bbl)
-Package biblatex Info: Reference section=0 on input line 155.
-Package biblatex Info: Reference segment=0 on input line 155.
+Package biblatex Info: Reference section=0 on input line 156.
+Package biblatex Info: Reference segment=0 on input line 156.
 \c@lstlisting=\count375
 \c__siunitx_mathsf_int=\count376
-LaTeX Font Info:    Try loading font information for U+msa on input line 155.
+LaTeX Font Info:    Try loading font information for U+msa on input line 156.
 
 ("C:\Moje Programy\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 155.
+LaTeX Font Info:    Try loading font information for U+msb on input line 156.
 
 ("C:\Moje Programy\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1565,23 +1574,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <agh.jpg, id=1, 146.4672pt x 284.7438pt>
 File: agh.jpg Graphic file (type jpg)
  <use agh.jpg>
-Package pdftex.def Info: agh.jpg used on input line 157.
+Package pdftex.def Info: agh.jpg used on input line 158.
 (pdftex.def)             Requested size: 87.88098pt x 170.8476pt.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 157.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 158.
 
 ("C:\Moje Programy\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 157.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 157.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 158.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 157.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 157.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 158.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 157.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 158.
  [1
 
 {C:/Users/Marcin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./agh.jpg>
@@ -1593,28 +1602,41 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 170.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 171.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 170.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 171.
 
-(In≈ºynierka.toc)
+(In≈ºynierka.toc [5
+
+])
 \tf@toc=\write5
 \openout5 = `In≈ºynierka.toc'.
 
- [5
-
-]
+ [6]
 \openout2 = `wstep.aux'.
 
- (wstep.tex [6
-
-
-
-]
+ (wstep.tex
 Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-[7]) [8]
+<scheme_pol.jpg, id=28, 684.30656pt x 519.44063pt>
+File: scheme_pol.jpg Graphic file (type jpg)
+ <use scheme_pol.jpg>
+Package pdftex.def Info: scheme_pol.jpg used on input line 23.
+(pdftex.def)             Requested size: 289.07999pt x 219.43967pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 30.
+[7
+
+
+
+]) [8 <./scheme_pol.jpg>]
 \openout2 = `algorytmy.aux'.
 
  (algorytmy.tex
@@ -1623,81 +1645,268 @@ Rozdzia\l  2.
 
 
 
-] [10] [11]) [12]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 78--90
+
+ []
+
+[10]
+Underfull \hbox (badness 2229) in paragraph at lines 100--101
+[] [][] \T1/ptm/m/n/10.95 Na-st¶p-nie na-leªy kaª-dej cz°-steczce przy-pi-sa¢ w
+ag¶, ktÛra re-pre-zen-tuje praw-do-po-do-bie´-stwo
+ []
+
+[11] [12]) [13] [14]
 \openout2 = `stanowisko.aux'.
 
  (stanowisko.tex
 Rozdzia\l  3.
-<zybo.jpg, id=55, 803.0pt x 803.0pt>
+<Yi_action.jpg, id=64, 219.06844pt x 166.37157pt>
+File: Yi_action.jpg Graphic file (type jpg)
+ <use Yi_action.jpg>
+Package pdftex.def Info: Yi_action.jpg used on input line 19.
+(pdftex.def)             Requested size: 289.07999pt x 219.5451pt.
+ [15
+
+
+
+ <./Yi_action.jpg>] <zybo.jpg, id=68, 803.0pt x 803.0pt>
 File: zybo.jpg Graphic file (type jpg)
  <use zybo.jpg>
-Package pdftex.def Info: zybo.jpg used on input line 24.
+Package pdftex.def Info: zybo.jpg used on input line 37.
 (pdftex.def)             Requested size: 289.07999pt x 289.07977pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
-
-
-
-]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 36.
-
-[14 <./zybo.jpg>] [15] <maestro.jpg, id=66, 274.77657pt x 188.95593pt>
+ [16 <./zybo.jpg>] <Pololu.jpg, id=72, 332.74312pt x 286.06876pt>
+File: Pololu.jpg Graphic file (type jpg)
+ <use Pololu.jpg>
+Package pdftex.def Info: Pololu.jpg used on input line 61.
+(pdftex.def)             Requested size: 289.07999pt x 248.54607pt.
+ [17]
+<maestro.jpg, id=76, 274.77657pt x 188.95593pt>
 File: maestro.jpg Graphic file (type jpg)
-
-<use maestro.jpg>
-Package pdftex.def Info: maestro.jpg used on input line 62.
+ <use maestro.jpg>
+Package pdftex.def Info: maestro.jpg used on input line 81.
 (pdftex.def)             Requested size: 289.07999pt x 198.81033pt.
-)
+
+Underfull \vbox (badness 2359) has occurred while \output is active []
+
+ [18 <./Pololu.jpg>] <zasilanie.jpg, id=80, 4625.28pt x 3468.96pt>
+File: zasilanie.jpg Graphic file (type jpg)
+ <use zasilanie.jpg>
+Package pdftex.def Info: zasilanie.jpg used on input line 92.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./maestro.jpg>] [17]
+ [19 <./maestro.jpg>]) [20 <./zasilanie.jpg>]
 \openout2 = `komunikacja.aux'.
 
- (komunikacja.tex [18
+ (komunikacja.tex
+Rozdzia\l  4.
+<realterm.jpg, id=88, 523.9575pt x 333.49594pt>
+File: realterm.jpg Graphic file (type jpg)
+ <use realterm.jpg>
+Package pdftex.def Info: realterm.jpg used on input line 12.
+(pdftex.def)             Requested size: 289.07999pt x 184.00343pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+
+
+ <./realterm.jpg>] [22] <raspberry.jpg, id=95, 4625.28pt x 3468.96pt>
+File: raspberry.jpg Graphic file (type jpg)
+
+<use raspberry.jpg>
+Package pdftex.def Info: raspberry.jpg used on input line 53.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+) [23 <./raspberry.jpg>]
+\openout2 = `tor.aux'.
+
+ (tor.tex [24
 
 
 
 ]
-Rozdzia\l  4.
-[19]) [20] [21
+Rozdzia\l  5.
+<Tor_wizyjny.jpg, id=102, 835.62187pt x 205.5178pt>
+File: Tor_wizyjny.jpg Graphic file (type jpg)
+ <use Tor_wizyjny.jpg>
+Package pdftex.def Info: Tor_wizyjny.jpg used on input line 19.
+(pdftex.def)             Requested size: 289.07999pt x 71.09814pt.
+
+[25 <./Tor_wizyjny.jpg>]
+Package epstopdf Info: Source file: <kolo_srodek.eps>
+(epstopdf)                    date: 2016-12-27 18:10:15
+(epstopdf)                    size: 35829 bytes
+(epstopdf)             Output file: <kolo_srodek-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-27 18:27:13
+(epstopdf)                    size: 7935 bytes
+(epstopdf)             Command: <epstopdf --outfile=kolo_srodek-eps-converted-t
+o.pdf kolo_srodek.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+
+<kolo_srodek-eps-converted-to.pdf, id=107, 432.61626pt x 244.915pt>
+File: kolo_srodek-eps-converted-to.pdf Graphic file (type pdf)
+
+<use kolo_srodek-eps-converted-to.pdf>
+Package pdftex.def Info: kolo_srodek-eps-converted-to.pdf used on input line 42
+.
+(pdftex.def)             Requested size: 289.07999pt x 163.66241pt.
+) [26 <./kolo_srodek-eps-converted-to.pdf>] [27]
+\openout2 = `regulator.aux'.
+
+ (regulator.tex [28
 
 
-] (In≈ºynierka.aux (wstep.aux) (algorytmy.aux) (stanowisko.aux)
-(komunikacja.aux))
+
+]
+Rozdzia\l  6.
+<servo.jpg, id=120, 589.4522pt x 148.30406pt>
+File: servo.jpg Graphic file (type jpg)
+ <use servo.jpg>
+Package pdftex.def Info: servo.jpg used on input line 13.
+(pdftex.def)             Requested size: 289.07999pt x 72.73297pt.
+ [29 <./servo.jpg>] <uklad.jpg, id=124, 848.4197pt x 131.74219pt>
+File: uklad.jpg Graphic file (type jpg)
+ <use uklad.jpg>
+Package pdftex.def Info: uklad.jpg used on input line 44.
+(pdftex.def)             Requested size: 289.07999pt x 44.88823pt.
+
+<uklad_digital.jpg, id=125, 1047.16219pt x 135.50626pt>
+File: uklad_digital.jpg Graphic file (type jpg)
+
+<use uklad_digital.jpg>
+Package pdftex.def Info: uklad_digital.jpg used on input line 54.
+(pdftex.def)             Requested size: 289.07999pt x 37.40596pt.
+ [30 <./uklad.jpg> <./uklad_digital.jpg>] [31]
+Package epstopdf Info: Source file: <comp.eps>
+(epstopdf)                    date: 2016-12-29 19:42:21
+(epstopdf)                    size: 33863 bytes
+(epstopdf)             Output file: <comp-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-29 19:44:22
+(epstopdf)                    size: 10819 bytes
+(epstopdf)             Command: <epstopdf --outfile=comp-eps-converted-to.pdf c
+omp.eps>
+(epstopdf)             \includegraphics on input line 180.
+Package epstopdf Info: Output file is already uptodate.
+
+<comp-eps-converted-to.pdf, id=133, 421.575pt x 316.18124pt>
+File: comp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use comp-eps-converted-to.pdf>
+Package pdftex.def Info: comp-eps-converted-to.pdf used on input line 180.
+(pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
+ <Simulink.jpg, id=134, 410.2828pt x 240.9pt>
+File: Simulink.jpg Graphic file (type jpg)
+
+<use Simulink.jpg>
+Package pdftex.def Info: Simulink.jpg used on input line 197.
+(pdftex.def)             Requested size: 289.07999pt x 169.73158pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32 <./comp-eps-converted-to.pdf>]
+<Przyrostowy.jpg, id=143, 288.3272pt x 162.6075pt>
+File: Przyrostowy.jpg Graphic file (type jpg)
+ <use Przyrostowy.jpg>
+Package pdftex.def Info: Przyrostowy.jpg used on input line 212.
+(pdftex.def)             Requested size: 289.07999pt x 163.03882pt.
+Package epstopdf Info: Source file: <sim_step.eps>
+(epstopdf)                    date: 2016-12-31 13:26:06
+(epstopdf)                    size: 98547 bytes
+(epstopdf)             Output file: <sim_step-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-31 14:51:57
+(epstopdf)                    size: 20034 bytes
+(epstopdf)             Command: <epstopdf --outfile=sim_step-eps-converted-to.p
+df sim_step.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+
+<sim_step-eps-converted-to.pdf, id=144, 421.575pt x 316.18124pt>
+File: sim_step-eps-converted-to.pdf Graphic file (type pdf)
+
+<use sim_step-eps-converted-to.pdf>
+Package pdftex.def Info: sim_step-eps-converted-to.pdf used on input line 229.
+(pdftex.def)             Requested size: 245.71754pt x 184.29225pt.
+ [33 <./Simulink.jpg> <./Przyrostowy.jpg>]
+Package epstopdf Info: Source file: <sim_ramp.eps>
+(epstopdf)                    date: 2016-12-31 14:50:35
+(epstopdf)                    size: 81959 bytes
+(epstopdf)             Output file: <sim_ramp-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-31 14:51:59
+(epstopdf)                    size: 29214 bytes
+(epstopdf)             Command: <epstopdf --outfile=sim_ramp-eps-converted-to.p
+df sim_ramp.eps>
+(epstopdf)             \includegraphics on input line 236.
+Package epstopdf Info: Output file is already uptodate.
+
+<sim_ramp-eps-converted-to.pdf, id=148, 421.575pt x 316.18124pt>
+File: sim_ramp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use sim_ramp-eps-converted-to.pdf>
+Package pdftex.def Info: sim_ramp-eps-converted-to.pdf used on input line 236.
+(pdftex.def)             Requested size: 245.71754pt x 184.29225pt.
+) [34 <./sim_step-eps-converted-to.pdf> <./sim_ramp-eps-converted-to.pdf>]
+\openout2 = `tor_meanshift.aux'.
+
+ (tor_meanshift.tex
+Rozdzia\l  7.
+[35
+
+
+
+]) [36]
+\openout2 = `implementacja_KLT.aux'.
+
+ (implementacja_KLT.tex
+Rozdzia\l  8.
+) [37
+
+
+
+] [38
+
+
+] [39] (In≈ºynierka.aux (wstep.aux) (algorytmy.aux) (stanowisko.aux)
+(komunikacja.aux) (tor.aux) (regulator.aux) (tor_meanshift.aux)
+(implementacja_KLT.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'In≈ºynierka.run.xml'.
 \openout1 = `In≈ºynierka.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25253 strings out of 493334
- 465596 string characters out of 3139248
- 696251 words of memory out of 3000000
- 28407 multiletter control sequences out of 15000+200000
- 76038 words of font info for 83 fonts, out of 3000000 for 9000
+ 25406 strings out of 493334
+ 468533 string characters out of 3139248
+ 702757 words of memory out of 3000000
+ 28513 multiletter control sequences out of 15000+200000
+ 79326 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,58p,10391b,1791s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Moje Programy/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Moje Program
 y/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Moje Programy/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Moje Programy/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr6.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Moje
- Programy/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Moje Programy/MiKT
-eX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/urw/time
-s/utmb8a.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
-Moje Programy/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Moje Programy/MiK
-TeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on In≈ºynierka.pdf (21 pages, 381538 bytes).
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Moje Programy/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Moje
+ Programy/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Moje Programy
+/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Moje Programy/Mi
+KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Moje Programy/MiKTeX 2.9/fonts
+/type1/urw/helvetic/uhvr8a.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/urw/hel
+vetic/uhvro8a.pfb><C:/Moje Programy/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb
+><C:/Moje Programy/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Moje Program
+y/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Moje Programy/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on In≈ºynierka.pdf (39 pages, 3479842 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 231 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

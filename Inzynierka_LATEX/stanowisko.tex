@@ -14,7 +14,20 @@ Pierwszą częścią pracy jest skompletowanie stanowiska demonstracyjnego, w sk
 \section{Kamera}
 \label{sec:kamera}
 
-Postanowiono użyć kamery\dots(Tutaj nazwa kamery, specyfikacja, krótki opis).
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4in]{Yi_action.jpg}
+	\captionsource{Kamera Xiaomi Yi Action.}{\cite{Xiaomi}}
+\end{figure}
+
+Postanowiono użyć kamery Xiaomi Yi Action YDXJ01XY. Jest ona bardzo lekka i może wysyłać obraz w wybranej przez nas rozdzielczości z częstotliwością 60 Hz. Oprócz tego można ją przykręcić do użytych elementów połączeniowych głowicy obrotowej. Dane techniczne \cite{Xiaomi}:
+\begin{itemize}
+\item Maksymalna rozdzielczość: \(1920\)x\(1080\)
+\item Waga: \(76.6\) g
+\item Odporność na wstrząsy
+\item Kąt nagrywania: \(155^\circ\)
+\item Wymiary: \(60.4\) mm x \(42\) mm x \(21.2\) mm
+\end{itemize}
 
 \section{Platforma obliczeniowa}
 \label{sec:platformaobliczeniowa}
@@ -22,7 +35,6 @@ Postanowiono użyć kamery\dots(Tutaj nazwa kamery, specyfikacja, krótki opis).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=4in]{zybo.jpg}
-	%\caption{\label{fig:zybo}Płytka ZYBO Zynq-7000.}
 	\captionsource{Płytka ZYBO Zynq-7000.}{\cite{Xi}}
 \end{figure}
 
@@ -43,7 +55,14 @@ Jest on, podobnie jak serwomechanizm analogowy, sterowany impulsami. Podawać mo
 Główną różnicą pomiędzy serwomechanizmami standardowymi, a smart, jest sposób komunikacji w celu podania wartości zadanej położenia. Zamiast impulsów o różnej szerokości wykorzystuje się komunikację szeregową. Ich obsługa jest więc bardziej skomplikowana. Najpopularniejszymi protokołami są TTL Half-Duplex, TTL Full-Duplex i RS-485. Za pomocą komunikacji tego typu można zmieniać dużo więcej parametrów niż tylko pozycję zadaną. Można zmieniać nastawy regulatora PID, maksymalną prędkość kątową lub maksymalny moment. W przeciwieństwie do serwomechanizmów klasycznych, możemy również odczytywać aktualną pozycję serwomechanizmu. Minusem tych urządzeń jest ich cena oraz dostępność. Są one kilka razy droższe od cyfrowych serwomechanizmów o podobnych parametrach.
 
 \paragraph*{}
-Postanowiono użyć dwóch serwomechanizmów cyfrowych PowerHD D-21HV. Są to serwomechanizmy typu standard o dużym momencie obrotowym i wysokiej maksymalnej prędkości obrotowej. Wyposażone jest w łożyska kulkowe oraz tytanowe tryby w celu zwiększenia jego wytrzymałości. Specyfikacja serwomechanizmów:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4in]{Pololu.jpg}
+	\captionsource{Serwomechanizm cyfrowy PowerHD D-21HV.}{\cite{Pololu}}
+\end{figure}
+
+Postanowiono użyć dwóch serwomechanizmów cyfrowych PowerHD D-21HV. Są to serwomechanizmy typu standard o dużym momencie obrotowym i wysokiej maksymalnej prędkości obrotowej. Wyposażone jest w łożyska kulkowe oraz tytanowe tryby w celu zwiększenia jego wytrzymałości. Specyfikacja serwomechanizmów \cite{Pololu}:
 \begin{itemize}
 \item Napięcie zasilania: \(6.0-7.4\) V
 \item Zakres ruchu: \(155^\circ\)
@@ -57,17 +76,24 @@ Urządzenia te mogą pobierać impulsowy prąd o wartości nawet powyżej 3 A. S
 \section{Sterownik serwomechanizmów}
 \label{sec:sterownik}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=4in]{maestro.jpg}
 	\captionsource{Sterownik serwomechanizmów Pololu Mini Maestro.}{\cite{MM}}
 \end{figure}
 
-Do sterowania serwomechanizmami postanowiono użyć gotowego sterownika produkowanego przez firmę Pololu. 12-kanałowy sterownik Mini Maestro pozwala na równoczesną obsługę obu serwomechanizmów. Oprócz podawania wartości zadanej w postaci impulsów pozwala on również na zmianę ustawianie maksymalnej prędkości obrotowej i maksymalnego momentu obrotowego. Dzięki temu możemy dużo lepiej kontrolować urządzenia wykonawcze i zapewnić bardziej ciągły ruch głowicy. Komunikujemy się z nim za pośrednictwem interfejsu szeregowego UART z prędkością 115200 bitów na sekundę.
+Do sterowania serwomechanizmami postanowiono użyć gotowego sterownika produkowanego przez firmę Pololu. 12-kanałowy sterownik Mini Maestro pozwala na równoczesną obsługę obu serwomechanizmów. Oprócz podawania wartości zadanej w postaci impulsów pozwala on również na zmianę ustawianie maksymalnej prędkości obrotowej i maksymalnego momentu obrotowego. Dzięki temu można dużo lepiej kontrolować urządzenia wykonawcze i zapewnić bardziej ciągły ruch głowicy. Komunikacja ze sterownikiem odbywa się za pośrednictwem interfejsu szeregowego UART z prędkością 115200 bitów na sekundę.
 
 \section{Zasilanie}
 \label{sec:zasilanie}
-Do zasilania głowicy użyty został zasilacz impulsowy Redox, który na wyjściu daje napięcie 12 V i maksymalny prąd 5 A. Jako, że serwomechanizmy potrzebują napięcia 7.4 V używamy przetwornicy step-down XL4005E1 o regulowanym napięciu wyjściowym. Maksymalny prąd wyjściowy użytej przetwornicy wynosi 5 A. Zdecydowanie wystarczy to do zasilenia użytych serwomechanizmów.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4in]{zasilanie.jpg}
+	\captionsource{Układ zasilający serwomechanizmy.}{Własne}
+\end{figure}
+
+Do zasilania głowicy użyty został zasilacz impulsowy Redox, który na wyjściu daje napięcie 12 V i maksymalny prąd 5 A. Jako, że serwomechanizmy potrzebują napięcia 7.4 V używamy przetwornicy step-down XL4005E1 o regulowanym napięciu wyjściowym. Maksymalny prąd wyjściowy użytej przetwornicy wynosi 5 A. Jest to wartość wystarczająca do zasilenia użytych serwomechanizmów.
 
 \section{Wskaźnik}
 \label{sec:wskaznik}

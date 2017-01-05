@@ -1,18 +1,25 @@
 \chapter{Komunikacja}
 \label{cha:komunikacja}
 
-Po zbudowaniu stanowiska postanowiono w pierwszej kolejności na implementację komunikacji między wszystkimi elementami systemu. Można ją podzielić na część PC-ZYNQ oraz ZYNQ-Maestro.
+Po zbudowaniu stanowiska postanowiono w pierwszej kolejności zaimplementować komunikację między wszystkimi elementami systemu. Można ją podzielić na część PC-ZYNQ oraz ZYNQ-Maestro.
 
 \section{PC-ZYNQ}
 \label{sec:pc-zynq}
 Postanowiono wykorzystać UART. Argumentem przemawiającym za tym rozwiązaniem był fakt wyprowadzenia dwóch pinów MIO (48 i 49) procesora płytki ZYBO do złącza mikro USB typu B. Piny te podłączone zostały do jednego z układów procesora odpowiedzialnych za komunikację szeregową - UART1. Złącze USB służy również do programowania układu przez JTAG. Dzięki temu używa się jednego przewodu do programowania układu oraz do komunikacji z nim. Po podłączeniu przewodu oraz włączeniu ZYBO w komputerze pojawia się dodatkowy port COM. Przez ten port można wymieniać dane z platformą obliczeniową. Do wysyłania komunikatów na PC wykorzystano program \textit{Realterm}. Dzięki temu nie było konieczności pisania dodatkowego oprogramowania.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=4in]{realterm.jpg}
+	\captionsource{Okno programu Realterm z komunikatem o poprawnym uruchomieniu programu.}{Własne}
+\end{figure}
+
 \paragraph*{}
-Rozmiar jednej komendy wysyłanej do układu ZYNQ wynosi 5 bajtów. Pierwszy informuje o typie rozkazu, a 4 kolejne są danymi do tego rozkazu. Każdy kolejny odebrany bajt umieszczany jest w buforze o rozmiarze 5 bajtów. Włączone zostało przerwanie od pełnego bufora. Po wysłaniu komendy z PC w procesorze układu ZYNQ uruchamiane jest przerwanie, w którym wysłany zostaje odpowiedni rozkaz do sterownika serwomechanizmów. Zaimplementowano obsługę następujących komend w ZYNQ:
+Rozmiar jednej komendy wysyłanej do układu ZYNQ wynosi 5 bajtów. Pierwszy informuje o typie rozkazu, a 4 kolejne są danymi do tego rozkazu. Każdy kolejny odebrany bajt umieszczany jest w buforze o rozmiarze 5 bajtów. Włączone zostało przerwanie od pełnego bufora. Po wysłaniu komendy z PC w procesorze układu ZYNQ uruchamiane jest przerwanie, w którym wysłany zostaje odpowiedni rozkaz do sterownika serwomechanizmów lub ustawiana jest zmienna informująca o pracy w trybie autonomicznym. Zaimplementowano obsługę następujących komend w ZYNQ:
 \begin{itemize}
 \item Zmiana pozycji serwomechanizmów: 0x00 0xHH 0xLL 0xHH 0xLL.
 \item Zmiana maksymalnej prędkości serwomechanizmów: 0x01 0xHH 0xLL 0xHH 0xLL.
 \item Zmiana maksymalnego momentu serwomechanizmów: 0x02 0xHH 0xLL 0xHH 0xLL.
-\item Odczyt pozycji ze sterownika: 0x03 0x-- 0x-- 0x-- 0x--.
+\item Odczyt aktualnej wartości zadanej ze sterownika: 0x03 0x-- 0x-- 0x-- 0x--.
 \item Rozpoczęcie pracy autonomicznej (śledzenia): 0x04 0x-- 0x-- 0x-- 0x--.
 \end{itemize}
 \paragraph*{}
@@ -20,6 +27,9 @@ W pierwszych trzech rozkazach pierwsze dwa bajty danych są parametrami dla serw
 
 \section{ZYNQ-Maestro}
 \label{sec:zynq-maestro}
+
+% Tutaj wstaw zdjęcie połączonego układu ZYBO-Maestro.
+
 Komunikacja przez UART została narzucona, gdyż jest to jedyny protokół komunikacyjny w Maestro. Łączymy odpowiednie piny (MIO 14,15) złącza MIO PMOD płytki ZYBO do pinów Maestro odpowiadających za komunikację szeregową. Następnie do użytych pinów MIO podłączamy wyjścia innego układu procesora odpowiadającego za komunikację szeregową - UART0. W dokumentacji Maestro wyszukujemy listę komend i implementujemy wysyłanie potrzebnych w układzie ZYNQ \cite{MM}. Są to następujące komendy:
 \begin{itemize}
 \item Zmiana pozycji serwomechanizmów: 0x9F 0x02 0x0A 0xLL 0xHH 0xLL 0xHH.
@@ -37,5 +47,12 @@ Komunikacja była testowana na układzie złożonym z:
 \item Płytki ZYBO.
 \item Komputera Raspberry Pi 2 Model B.
 \end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=4in]{raspberry.jpg}
+	\captionsource{Płytka ZYBO i komputer Raspberry pi 2 B użyty do testów.}{Własne}
+\end{figure}
+
 \paragraph*{}
-W układzie tym Raspberry zastępowało sterownik serwomechanizmów. Zamiana ta została wykonana, by mieć możliwość sprawdzania poprawności danych odbieranych z ZYNQ. W trakcie testów okazało się, że pierwszy bajt wysyłany do ZYBO jest wpisywany do bufora i wskaźnik jest przesuwany, lecz w kontrolerze przerwań nie jest zwiększany licznik ilości bajtów w buforze. W efekcie przerwanie od pełnego bufora danych przychodzących było wywoływane o 1 bajt za późno (po otrzymaniu pierwszego bajtu nowej komendy). Naprawiono to poprzez dodatkowy test w trakcie inicjalizacji komunikacji szeregowej. Test ten polegał na włączenie trybu loopback, wysłaniu i odebraniu kilku bajtów danych, a następnie zresetowaniu bufora. W trybie loopback dane wysyłane przez UART są wysyłane na jego wejście. W ten sposób można sprawdzać zgodność danych. Oprócz tego sprawdzono, czy wysłanie komendy z PC do ZYNQ skutkuje wysłaniem poprawnej komendy z ZYNQ do Maestro. Po naprawieniu opisanego problemu tego problemu i ponownym przeprowadzeniu testów stwierdzono, że komunikacja działa poprawnie.
+W układzie tym Raspberry zastępowało sterownik serwomechanizmów. Zamiana ta została wykonana, by mieć możliwość sprawdzania poprawności danych odbieranych z ZYNQ. W trakcie testów okazało się, że pierwszy bajt wysyłany do ZYBO jest wpisywany do bufora i wskaźnik jest przesuwany, lecz w kontrolerze przerwań nie jest zwiększany licznik ilości bajtów w buforze. W efekcie przerwanie od pełnego bufora danych przychodzących było wywoływane o 1 bajt za późno (po otrzymaniu pierwszego bajtu nowej komendy). Naprawiono to poprzez dodatkowy test w trakcie inicjalizacji komunikacji szeregowej. Test ten polegał na włączenie trybu loopback, wysłaniu i odebraniu kilku bajtów danych, a następnie zresetowaniu bufora. W trybie loopback dane wysyłane przez UART są wysyłane na jego wejście. W ten sposób można sprawdzać zgodność danych. Oprócz tego sprawdzono, czy wysłanie komendy z PC do ZYNQ skutkuje wysłaniem poprawnej komendy z ZYNQ do Maestro. Po naprawieniu opisanego problemu i ponownym przeprowadzeniu testów stwierdzono, że komunikacja działa poprawnie.
