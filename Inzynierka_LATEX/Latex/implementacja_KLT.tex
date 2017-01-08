@@ -1,10 +1,21 @@
 \chapter{Implementacja algorytmu KLT}
 \label{cha:implementacjaalgorytmuklt}
 
-Jak opisywano w sekcji \ref{sec:wyborimplementowanegoalgorytmu} najlepiej z zadaniem śledzenia w modelu programowym poradził sobie algorytm KLT. W związku z tym postanowiono przeprowadzić próbę jego implementacji w układzie Zynq. Należy zauważyć, że celem autora było zaimplementowanie jak największej części algorytmu w logice rekonfigurowalnej, aby zmniejszyć ilość obliczeń potrzebnych do wykonania w procesorze oraz jak najwięcej z nich wykonywać równolegle. W efekcie system ma działać szybko, wymagać małej ilości energii oraz będzie go można łatwo rozbudować lub zmienić zamieniając tylko odpowiednie moduły w diagramie blokowym programu \textit{Vivado}.
+%TODO proszę jednak starać się unikać tego "my".
+%MK: Żeby je usunąć sprawdiłem wszystkie wystąpienia "my" w pracy.
+
+Jak opisywano w podrozdziale \ref{sec:wyborimplementowanegoalgorytmu}, najlepiej z zadaniem śledzenia w modelu programowym poradził sobie algorytm KLT.
+W związku z tym postanowiono przeprowadzić próbę jego implementacji w układzie Zynq. %TODO Stosuje Pan Zynq i ZYNQ - trzeba to ujednolicić. -zrobione.
+Należy zauważyć, że celem autora było zaimplementowanie jak największej części algorytmu w logice rekonfigurowalnej, aby zmniejszyć liczbę obliczeń potrzebnych do wykonania w procesorze oraz jak najwięcej z nich wykonywać równolegle. 
+W efekcie system ma działać szybko, wymagać małej ilości energii oraz będzie go można łatwo rozbudować lub zmienić zamieniając tylko odpowiednie moduły w diagramie blokowym programu \textit{Vivado}.
 
 \paragraph*{}
-Metoda śledzenia KLT działa na obrazie w skali szarości. Konwersję przeprowadzamy tak jak dla metody Mean-shift, z użyciem wzoru \ref{eq:grayscale}. Zgodnie z przebiegiem algorytmu przestawionym w sekcji \ref{sec:klt}, działanie algorytmu rozpoczyna się od wyboru punktów charakterystycznych spełniających warunek na wartości własne hesjanu. Aby to zrobić najpierw musimy wyliczyć gradient obrazu wejściowego. Jest on obliczany jako konwolucja dwuwymiarowa obrazu wejściowego z następującymi maskami:
+Metoda śledzenia KLT działa na obrazie w skali szarości.
+Konwersję przeprowadzono tak, jak dla metody Mean-shift, z użyciem wzoru (\ref{eq:grayscale}). 
+Zgodnie z przebiegiem algorytmu przestawionym w podrozdziale \ref{sec:klt}, działanie algorytmu rozpoczyna się od wyboru punktów charakterystycznych spełniających warunek na wartości własne hesjanu. 
+%TODO sekcja - w PL to nie jest rodział, b) H, czy hesjan -zrobione.
+%MK: Zmieniłem sekcje na podrozdziały. hesjan
+Aby to zrobić najpierw należy wyliczyć gradient obrazu wejściowego. Jest on obliczany jako konwolucja dwuwymiarowa obrazu wejściowego z następującymi maskami:
 \begin{equation}
 M_x=
 	\begin{bmatrix}
@@ -19,10 +30,16 @@ M_y=
 	1
 	\end{bmatrix}
 \end{equation}
-Wyniki powyższych splotów są następnie podnoszone do kwadratów i mnożone przez siebie. W wyniku otrzymuje się macierz hesjanu dla aktualnego piksela. Zdecydowano, że powyższe wartości będą wyliczane dla całego obrazu w sposób potokowy. Aby to zrealizować należy zaimplementować również linię opóźniającą wartości pikseli oraz sygnały synchronizacyjne z użyciem pamięci BRAM, gdyż do wykonania powyższych działań potrzebujemy wartości pikseli z wcześniejszych linii obrazu wejściowego. Należy również wyznaczyć latencję użytych sumatorów i mnożarek, by opóźnić sygnały synchronizacyjne o odpowiednią liczbę taktów zegara.
+
+Wyniki powyższych splotów są następnie podnoszone do kwadratów i mnożone przez siebie. 
+W wyniku otrzymuje się macierz hesjanu dla aktualnego piksela. Zdecydowano, że powyższe wartości będą wyliczane dla całego obrazu w sposób potokowy.
+Aby to zrealizować należy zaimplementować również linię opóźniającą wartości pikseli oraz sygnały synchronizacyjne z użyciem wewnętrznej pamięci blokowej (BRAM), gdyż do wykonania powyższych działań potrzebne są wartości pikseli z wcześniejszych linii obrazu wejściowego.
+Należy również wyznaczyć latencję użytych sumatorów i mnożarek, by opóźnić sygnały synchronizacyjne o odpowiednią liczbę taktów zegara.
 
 \paragraph*{}
-Aby wyznaczyć punkty charakterystyczne następnie należy wyliczone wartości hesjanów poddać filtracji filtrem Gaussowskim. Jądro dwuwymiarowego filtru Gaussowskiego o wymiarze \(3\)x\(3\), wartości oczekiwanej równej \((0,0)\) i odchyleniu standardowym równym \(1\) wynosi:
+
+Aby wyznaczyć punkty charakterystyczne następnie należy wyliczone wartości hesjanów poddać filtracji filtrem Gaussowskim. 
+Jądro dwuwymiarowego filtru Gaussowskiego o wymiarze \(3\)x\(3\), wartości oczekiwanej równej \((0,0)\) i odchyleniu standardowym równym \(1\) wynosi:
 \begin{equation}
 \label{eq:gauss}
 M_G=
@@ -32,7 +49,8 @@ M_G=
 	0.0751 & 0.1238 & 0.0751
 	\end{bmatrix}
 \end{equation}
-Zwykły filtr Gaussowski wymagałby jednak dużej ilości zasobów (kilku mnożarek), więc postanowiono zaimplementować tzw. dyskretną wersję powyższego jądra, która ma postać \cite{Benda}:
+
+Zwykły filtr Gaussowski wymagałby jednak dużej liczby zasobów (kilku mnożarek), więc postanowiono zaimplementować tzw. dyskretną wersję powyższego jądra, która ma postać \cite{Benda}:
 \begin{equation}
 M_G=\frac{1}{16} \cdot
 	\begin{bmatrix}
@@ -41,10 +59,10 @@ M_G=\frac{1}{16} \cdot
 	1 & 2 & 1
 	\end{bmatrix}
 \end{equation}
-Powyższy filtr w porównaniu do \ref{eq:gauss} nie wymaga użycia mnożarek. Zamiast tego wykorzystujemy przesunięcia bitowe. Implementacja wymaga kolejnej linii opóźniającej oraz dodatkowego opóźnienia sygnałów synchronizacyjnych.
+Powyższy filtr w porównaniu do (\ref{eq:gauss}) nie wymaga użycia mnożarek. Zamiast tego wykorzystuje przesunięcia bitowe. Implementacja wymaga kolejnej linii opóźniającej oraz dodatkowego opóźnienia sygnałów synchronizacyjnych.
 
 \paragraph*{}
-Na podstawie wyników opisanego powyżej splotu obliczamy funkcję celu, czyli wartość mniejszej wartości własnej hesjanu. Hesjan ma postać:
+Na podstawie wyników opisanego powyżej splotu oblicza się funkcję celu, czyli wartość mniejszej wartości własnej hesjanu. Hesjan ma postać:
 \begin{equation}
 H=
 	\begin{bmatrix}
@@ -74,24 +92,38 @@ Mniejsza z jego wartości własnych wynosi więc:
 \label{eq:lambda}
 \lambda=\frac{H_{xx}+H_{yy}-\sqrt{\Delta}}{2}
 \end{equation}
-Piksele dla których obliczona wartość funkcji celu jest największa są punktami charakterystycznymi. Ze wzorów \ref{eq:delta} i \ref{eq:lambda} widać, że obliczenie wartości własnej wymagać będzie modułów mnożarki, sumatorów oraz obliczania pierwiastka podanej wartości. Obliczenia te zostały zrealizowane za pomocą modułów dostępnych w programie \textit{Vivado}.
+Piksele dla których obliczona wartość funkcji celu jest największa są punktami charakterystycznymi. Na podstawie wzorów (\ref{eq:delta}) i (\ref{eq:lambda}) wnioskować można, że obliczenie wartości własnej wymagać będzie modułów mnożarki, sumatorów oraz obliczania pierwiastka podanej wartości.
+%TODO styl - ze wzorów "widać" -zrobione.
+Obliczenia te zostały zrealizowane za pomocą modułów dostępnych w programie \textit{Vivado} (tzw. IP Core'ów). Na rysunku \ref{fig:mineig_vivado} przedstawiono fragment schematu blokowego, który odpowiada za wyznaczanie punktów charakterystycznych.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=4in]{mineig_vivado.jpg}
-	\captionsource{Fragment schematu blokowego, realizujący opisane powyżej operacje.}{Własne}
+	\caption{Fragment schematu blokowego, realizujący wyznaczanie punktów charakterystycznych.}
+	\label{fig:mineig_vivado}
 \end{figure}
+%TODO ref. i nie, że powyżej opisane operacje... -zrobione.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=4in]{test.png}
-	\captionsource{Przykładowy obraz wejściowy.}{Własne}
+	\includegraphics[width=2in]{test.jpg}
+	\caption{Przykładowy obraz wejściowy.}
+	\label{fig:test}
 \end{figure}
+%TODO ref -zrobione.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=4in]{test_out.eps}
-	\captionsource{Obraz wyjściowy odpowiadający wejściowemu.}{Własne}
+	\includegraphics[width=4in]{test_out.jpg}
+	\caption{Przykładowy obraz wyjściowy.}
+	\label{fig:test_out}
 \end{figure}
+%TODO ref -zrobione.
 
-Nie udało się dokończyć implementacji algorytmu KLT. Potrzeba jeszcze zaimplementować operacje realizujące śledzenie okna wokół wybranych punktów charakterystycznych, a więc obliczające wartość przesunięcia z równania \ref{eq:dp_klt} oraz iteracyjne wyznaczanie przesunięcia za pomocą wspomnianego wzoru.
+\noindent Na rysunku \ref{fig:test} pokazano przykładowy obraz wejściowy dla którego wyznaczone zostały punkty charakterystyczne. Został on wybrany tak, by ich położenie można było bardzo łatwe do określenia (znajdują się one w rogach prostokątów).\newline
+Na rysunku \ref{fig:test_out} przedstawiono obraz wyjściowy, gdy na wejście został podany obraz z rysunku \ref{fig:test}. Jasne piksele oznaczają punkty charakterystyczne. Zgodnie z przewidywaniami znajdują się one w rogach prostokątów.
+
+\paragraph*{}
+Nie udało się dokończyć implementacji algorytmu KLT. Potrzeba jeszcze zaimplementować operacje realizujące śledzenie okna wokół wybranych punktów charakterystycznych, a więc obliczające wartość przesunięcia z równania (\ref{eq:dp_klt}) oraz iteracyjne wyznaczanie przesunięcia za pomocą wspomnianego wzoru.
+
+%TODO Zobaczymy...

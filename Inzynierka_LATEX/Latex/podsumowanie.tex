@@ -1,17 +1,36 @@
 \chapter{Podsumowanie}
 \label{cha:podsumowanie}
+%TODO TK - przeczytać raz jeszcze
 
-W pracy przeprowadzono analizę algorytmów śledzenia możliwych do zaimplementowania w układzie Zynq. Na podstawie wyników działania implementacji w środowisku \textit{MATLAB} oceniono ich efektywność dla nagranych sekwencji testowych. Najbardziej pod uwagę brana była sekwencja w której śledzonym obiektem był dron. Jako część pracy zostały wybrane części do realizacji stanowiska demonstratora systemu wizyjnego z kamerą zamontowaną na głowicy obrotowej oraz zostało ono zbudowane. Następnie zrealizowano komunikację pomiędzy wszystkimi elementami systemu. Możemy więc zadawać pozycję dla serwomechanizmów bezpośrednio z poziomu komputera PC lub włączyć/wyłączyć pracę autonomiczną. Na podstawie obliczonego modelu matematycznego wybrano nastawy regulatora PID przyrostowego, który służy do pozycjonowania serwomechanizmów. Wartość zadana regulatora jest otrzymywana z toru wizyjnego zaimplementowanego w części rekonfigurowalnej układu. Stworzono dwa tory wizyjne. Jeden z nich realizuje zadanie śledzenia przez detekcję, a drugi algorytm Mean-shift. Każdy z nich na wyjściu daje współrzędne obiektu oraz sygnał wywołujący przerwanie w procesorze. Działanie obu zostało przetestowane w systemie (razemz regulatorem i działającymi serwomechanizmami). Przeprowadzono również próbę implementacji algorytmu KLT.
+W pracy przeprowadzono analizę algorytmów śledzenia możliwych do zaimplementowania w układzie Zynq. 
+Na podstawie wyników działania implementacji w środowisku \textit{MATLAB} oceniono ich efektywność dla nagranych sekwencji testowych. 
+Największą wagę przykładano do testu, w którym śledzonym obiektem był dron. 
+%TODO styl.... swoją drogą to jakieś obrazki z tym dronem trzeba zamieścić. -zrobione w testowaniu algorytmów w rozdziale "Algorytmy".
+%MK: Dodać zdjęcie z sekwencji z dronem (w miejscu oceny algorytmów).
+Jako element pracy zostały wybrane części do realizacji stanowiska demonstratora systemu wizyjnego z kamerą zamontowaną na głowicy obrotowej oraz zostało ono zbudowane. 
+%TODO STyl część, części ? -zrobione.
+Następnie zrealizowano komunikację pomiędzy wszystkimi elementami systemu. 
+Można więc zadawać pozycję dla serwomechanizmów bezpośrednio z poziomu komputera PC lub włączyć/wyłączyć pracę autonomiczną.
+%TODO nie "my" -zrobione.
+Na podstawie obliczonego modelu matematycznego wybrano nastawy regulatora PID przyrostowego, który służy do pozycjonowania serwomechanizmów. 
+Wartość zadana regulatora jest otrzymywana z toru wizyjnego zaimplementowanego w części rekonfigurowalnej układu. 
+Stworzono dwa tory wizyjne. 
+Jeden z nich realizuje zadanie śledzenia przez detekcję, a drugi algorytm Mean-shift. 
+Każdy z nich na wyjściu daje współrzędne obiektu oraz sygnał wywołujący przerwanie w procesorze. 
+Działanie obu zostało przetestowane w systemie (razem z regulatorem i działającymi serwomechanizmami). 
+%TODO Ale na to przydałby się jakieś dowody...
+%MK: Do prezentacji nagram filmiki. Do pracy zrobię jakieś zdjęcia.
+Przeprowadzono również próbę implementacji algorytmu KLT.
 
 \paragraph*{}
 Wnioski na podstawie wykonanych zadań:
 \begin{itemize}
 \item Zrealizowanie algorytmu w sposób równoległy (implementacja sprzętowa) wymaga dużo więcej pracy niż implementacja w procesorze.
-\item Algorytm Mean-shift radzi sobie dobrze, gdy śledzony obiekt wyraźnie różni się kolorem od tła (jeśli stosujemy składową H przestrzeni HSV).
-\item Algorytm śledzenia przez detekcję podawał zazwyczaj dobre współrzędne obiektu, lecz nie wykorzystuje on informacji z poprzednich ramek. Możliwe są więc sytuacje, kiedy wykryje obiekt po zupełnie innej stronie ramki (np. w wyniku szumów), co może doprowadzić nawet do uszkodzeń mechanicznych.
-\item Dobór odpowiedniego regulatora i jego parametrów jest dużo łatwiejszy, jeśli dysponujemy modelem sterowanego układu.
+\item Algorytm Mean-shift radzi sobie dobrze, gdy śledzony obiekt wyraźnie różni się kolorem od tła (jeśli zastosowano składową H przestrzeni HSV).
+\item Algorytm śledzenia przez detekcję podawał zazwyczaj dobre współrzędne obiektu, lecz nie wykorzystuje on informacji z poprzednich ramek. Możliwe są więc sytuacje, kiedy wykryje obiekt po zupełnie innej stronie ramki (np. w wyniku szumów), co może doprowadzić nawet do uszkodzeń mechanicznych w wyniku gwałtownych ruchów układu.
+%TODO niejasne, domyślam się, że na skutek nagłego przemieszczenia układu (ale to trzeba napisać) -zrobione.
+\item Dobór odpowiedniego regulatora i jego parametrów jest dużo łatwiejszy, jeśli dysponuje się modelem sterowanego układu.
 \item Model nie musi idealnie odwzorowywać zachowania rzeczywistego układu. Można pominąć efekty takie jak niewielkie opóźnienia.
-\item Podczas pracy ze sprzętem trzeba wiele czasu poświęcić na zapoznanie się ze środowiskiem oraz rozwiązywanie powstałych problemów.
 \item Podzielenie projektu na niezależne moduły (Rysunek \ref{fig:schemat}) znacznie ułatwia pracę.
 \item Testowanie każdego z modułów osobno, po realizacji, ułatwia połączenie układu w działającą całość.
 \end{itemize}
