@@ -19,7 +19,7 @@ close all
 % and time it with tic/toc
 tic
 [Length,height,width,Movie]=...
-    Import_mov('Videos/cam_gabka.wmv');
+    Import_mov('Videos/cam_dron.wmv');
 toc
 
 %% Play the movie

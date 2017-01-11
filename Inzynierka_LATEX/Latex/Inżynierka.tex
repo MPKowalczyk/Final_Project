@@ -169,6 +169,26 @@ backend=bibtex
 }
 
 \setcounter{tocdepth}{2}
+
+\section*{Streszczenie}
+Celem niniejszej pracy było stworzenie demonstratora systemu wizyjnego do śledzenia obiektów, przy czym zakładano, że kamera zamontowana jest na głowicy obrotowej. 
+Zadanie polegało na takim sterowaniu głowicą, aby obiekt znajdował cały czas się w środku kadru kamery. 
+Platformę obliczeniową stanowiła karta ewaluacyjna ZYBO, zawierająca układ Zynq SoC. 
+Dokonano porównania algorytmów śledzenia oraz oceny ich skuteczności dla zarejestrowanych sekwencji testowych. 
+Zaprojektowano również układ sterowania dla głowicy obrotowej. 
+Jako efekt pracy powstało stanowisko, na którym przetestowano algorytm śledzenia przez detekcję oraz Mean-shift. 
+Wynikiem projektu było autonomiczne urządzenie, zdolne do śledzenia wybranego obiektu.
+
+\section*{Abstract}
+The aim of this work was to create a~demonstrator of a~vision system for moving object tracking. 
+It was assumed, that camera was mounted on a~pan-tilt head, which was controlled in such a way, that the object was always located in the centre of image frame. 
+As the computing platform the ZYBO  evaluation board, containing a heterogeneous Zynq SoC device was used. 
+Comparison of different tracking algorithms and the evaluation of their effectiveness for self-recorded sequences was done. 
+Also a control system for the pan-tilt head was designed. 
+As a result of the work a device was created, where tracking-by-detection and Mean-shift algorithms were tested. 
+The result of the project is an autonomic, moving smart-camera able of tracking simple objects.
+\clearpage
+
 \tableofcontents
 \clearpage
 
@@ -183,11 +203,19 @@ backend=bibtex
 \include{podsumowanie}
 
 % itd.
-% \appendix
-% \include{dodatekA}
+\appendix
+\addcontentsline{toc}{chapter}{Bibliografia}
+\printbibliography
+\include{dodatekA}
 % \include{dodatekB}
 % itd.
 
-\printbibliography
+\addcontentsline{toc}{chapter}{Bibliografia}
+
+
+%\clearpage
+
+%\addcontentsline{toc}{chapter}{Spis rysunków}
+%\listoffigures
 
 \end{document}

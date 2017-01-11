@@ -2,7 +2,7 @@
 % Comparison of tracking algorithms for final project and KKA article.
 
 %% Object initialization
-video=vision.VideoFileReader('yi_dron.wmv');
+video=vision.VideoFileReader('cam_dron.wmv');
 player=vision.VideoPlayer();
 frame=step(video);
 frame_map=rgb2gray(frame);

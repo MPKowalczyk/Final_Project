@@ -101,12 +101,23 @@ Założono, że odległość pikseli od środka obrazu jest proporcjonalna do k�
 Założenie to nie jest słuszne w ogólności, ale jest prawdziwe dla małych wartości odchylenia.
 Wyznaczenie dokładnej wielkości wymagałoby użycia Lookup table (tablicy przyporządkowującej każdemu pikselowi wartość kąta) lub wyznaczania funkcji matematycznej wykonującą powyższą funkcję.
 %TODO dziwne zdanie...a to nie jest tak, że dla małych kątów...
-%MK: Nie wiem czy teraz lepiej. Starałem się to inaczej opisać.
+%MK: Nie wiem czy teraz lepiej. Starałem się to inaczej opisać. -zrobione.
 %TODO no ale chyba tylko dla dwóch liczb
 
 
-%TODO Rozważyłbym jednak śledzenie przez detekcję przenieść przed meanshift, zeby algorytmy śledzące były jeden obok drugiego.
+%TODO Rozważyłbym jednak śledzenie przez detekcję przenieść przed meanshift, zeby algorytmy śledzące były jeden obok drugiego. -zrobione.
 %MK: Pomyślę, co trzebaby wtedy zmienić, żeby to było ok.
 
 %TODO Może jakieś zdjęcie jak to działa, a to było już z serwami robione?
 %MK: Kiedy to robiłem to jeszcze nie z serwami, ale później testowałem to z nimi i działało. Ciężko na zdjęciu pokazać, jak się poruszają serwa za obiektem. A samo zdjęcie ze środka ciężkości już jest wyżej. Czy ma Pan jakiś pomysł jak w pracy pokazać, że serwa się poruszają za obiektem? Do prezentacji na pewno filmiki muszę nagrać.
+\newpage
+Na rysunku \ref{fig:detekcja_servo} przedstawiono zdjęcie z testów działania kompletnego systemu. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=4in]{detekcja_servo.jpg}
+	\caption{Zdjęcie z testów działania systemu z algorytmem śledzenia przez detekcję.}
+	\label{fig:detekcja_servo}
+\end{figure}
+
+Układ był poprawnie pozycjonowany tak, by śledzony obiekt znajdował się w środku kadru. Bardzo negatywie na działanie układu wpływały zmiany oświetlenia. Zaletą tego rozwiązania była jego niewrażliwość na duże zmiany położenia obiektu w kolejnych ramkach.

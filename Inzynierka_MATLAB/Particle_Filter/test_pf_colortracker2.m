@@ -61,9 +61,9 @@ delta             = 0.7;        % delta time
 %%%%% Color Cue parameters %%%%%%%%
 
 Npdf              = 120;       % Number of samples to draw inside ellipse to evaluate color histogram
-Nx                = 6;         % Number of bins in first color dimension (R or H)
-Ny                = 6;         % Number of bins in second color dimension (G or S)
-Nz                = 6;         % Number of bins in third color dimension (B or V)
+Nx                = 10;         % Number of bins in first color dimension (R or H)
+Ny                = 10;         % Number of bins in second color dimension (G or S)
+Nz                = 10;         % Number of bins in third color dimension (B or V)
 sigma_color       = 0.20;      % Measurement Color noise
 nb_hist           = 256;
 

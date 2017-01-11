@@ -1,8 +1,7 @@
 \chapter{Wstęp}
 \label{cha:wstep}
 
-%TODO Abstrakty (PL i EN)
-%MK: Abstrakty po Polsku i Angielsku mają być w pracy inżynierskiej?
+
 
 %\section{Wprowadzenie}
 %\label{sec:wprowadzenie}
@@ -25,7 +24,11 @@ W~literaturze opisano liczne algorytmy śledzenia. Są to m.in:
 Algorytmy te zostaną dokładniej omówione w dalszej części pracy.
 
 \paragraph*{}
-Jako platformę sprzętową wybrano kartę ewaluacyjną ZYBO. Zawiera ona układ Zynq SoC (System on Chip), którego najważniejszą cechą jest to, że łączy dwurdzeniowy procesor ARM Cortex-A9 i tradycyjną strukturę FPGA (Field Programmable Gate Array) siódmej serii. Dzięki temu łączy on zalety obu tych architektur. Użyty procesor jest w stanie uruchomić nawet cały system operacyjny (Linux). Układ ten dopełnia przemysłowy standard interfejsów AXI, który zapewnia dużą przepustowość i niską latencję połączeń między procesorem, a częścią rekonfigurowalną układu \cite{Zynq}.
+Jako platformę sprzętową wybrano kartę ewaluacyjną ZYBO. 
+Zawiera ona układ Zynq SoC (ang. \textit{System on Chip}), którego najważniejszą cechą jest to, że łączy dwurdzeniowy procesor ARM Cortex-A9 i tradycyjną strukturę FPGA (Field Programmable Gate Array) siódmej generacji. 
+Dzięki temu łączy on zalety obu tych architektur. 
+Na procesorze możliwe jest np. uruchomienie systemu operacyjny (Linux). 
+Układ ten dopełnia przemysłowy standard interfejsów AXI, który zapewnia dużą przepustowość i niską latencję połączeń między procesorem, a częścią rekonfigurowalną układu \cite{Zynq}.
 
 %TODO Tu jeszcze coś o FPGA by się przyadło napiasć. No bo to jest też główny komponenent pracy. -napisane
 
@@ -65,12 +68,12 @@ Pracę postanowiono podzielić na kilka niezależnych modułów. Na rysunku \ref
 \item W rozdziale drugim wykonano przegląd algorytmów śledzenia i dokonano wyboru algorytmu do implementacji w sprzęcie.
 \item W rozdziale trzecim opisano skompletowane stanowisko. Przedstawiono specyfikację użytych elementów oraz uzasadniono ich wybór.
 \item W rozdziale czwartym scharakteryzowano komunikację pomiędzy elementami realizowanego systemu (PC-Zynq-Maestro).
-\item W rozdziale piątym opisano podstawowy tor wizyjny, otrzymujący obraz z kamery i wysyłający go bez zmian na wyjście. Przedstawiono realizację algorytmu śledzenia przez detekcję.
-\item W rozdziale szóstym opisano model matematyczny sterowanego obiektu oraz projekt implementowanego regulatora. Krótko omówiono wynik testu regulatora na modelu.
+\item W rozdziale piątym opisano model matematyczny sterowanego obiektu oraz projekt implementowanego regulatora. Krótko omówiono wynik testu regulatora na modelu.
+\item W rozdziale szóstym opisano podstawowy tor wizyjny, otrzymujący obraz z kamery i wysyłający go bez zmian na wyjście. Przedstawiono realizację algorytmu śledzenia przez detekcję.
 \item W rozdziale siódmym przedstawiono implementację w platformie sprzętowej gotowego algorytmu Mean-shift, wykonanego przez pana Krzysztofa Mazura w ramach koła naukowego \textit{AVADER}.
 %TODO Lepiej , że p. Krzysztofa Mauzura w ramach AVADER. -zrobione.
 %TODO nie podoba mi się słowo zrealizowne -zrobione.
-%TODO A nie ma śledznia przez detekcję. -dodano do rozdziału piątego.
+%TODO A nie ma śledznia przez detekcję. -dodano do rozdziału szóstego.
 \item W rozdziale ósmym przeprowadzono próbę implementacji algorytmu KLT. Opisano działanie modułów odpowiedzialnych za wyznaczanie punktów charakterystycznych obrazu oraz przedstawiono ich działanie na przykładzie.
 %TODO Do ew. aktualizacji
 \item W rozdziale dziewiątym podsumowano wykonane zadania. Omówiono wnioski na podstawie przeprowadzonych prac. Przedstawiono zadania, które zostaną zrealizowane w przyszłości.

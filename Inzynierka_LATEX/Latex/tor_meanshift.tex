@@ -74,3 +74,14 @@ Zmiana ta podyktowana jest faktem, że śledzony obiekt jest koloru zielonego, a
 
 %TODO OK, ale to w takim razie tam proszę podać, że moduł przujmuje jedną wybraną składową i przetestowano Y i H.
 %MK: "Do modułu przekazywana jest jedna składowa przestrzeni barw." Zmieniłem na coś takiego.
+\newpage
+Na rysunku \ref{fig:meanshift_servo} przedstawiono zdjęcie z testów działania kompletnego systemu z algorytmem Mean-shift. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=4in]{meanshift_servo.jpg}
+	\caption{Zdjęcie z testów działania systemu z algorytmem Mean-shift.}
+	\label{fig:meanshift_servo}
+\end{figure}
+
+Układ był poprawnie pozycjonowany tak, by śledzony obiekt znajdował się w środku kadru. Negatywnie na działanie układu wpływały szybkie przemieszczenia obiektu (był on wtedy gubiony). Zaletą tego rozwiązania były małe wahania współrzędnych wyznaczonego środka, gdy obiekt nie poruszał się. W efekcie system nie wykonywał drgań wokół środka obiektu.
